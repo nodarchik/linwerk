@@ -17,6 +17,8 @@ export function MatchCard() {
               alt={p.role}
               width={900}
               height={1125}
+              // only the first face is needed at once; the others must not be preloaded from other pages
+              loading={i === 0 ? "eager" : "lazy"}
               decoding="async"
             />
           ))}

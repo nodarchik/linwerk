@@ -5,6 +5,9 @@ import { PageFx } from "@/components/fx/PageFx";
 import { PageScope } from "@/components/layout/PageScope";
 import { ARTICLES, getArticle } from "@/data/articles";
 
+// Only the slugs below exist; anything else is a 404.
+export const dynamicParams = false;
+
 export function generateStaticParams() {
   return ARTICLES.map(({ slug }) => ({ slug }));
 }

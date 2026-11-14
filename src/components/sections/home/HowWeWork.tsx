@@ -408,7 +408,7 @@ export function HowWeWork() {
                   <p className="hb-who">
                     <span>Senior architect</span>
                     <span className="av">
-                      <img src="/people/4.webp" alt="" />
+                      <img loading="lazy" src="/people/4.webp" alt="" />
                     </span>
                   </p>
                 </div>

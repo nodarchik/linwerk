@@ -30,6 +30,7 @@ export function About() {
           <div className="at-t">
             <div className="at-ph" style={lqip("p1")}>
               <img
+                loading="lazy"
                 src="/team/p1-blur.webp"
                 alt=""
                 width="720"
@@ -45,6 +46,7 @@ export function About() {
           <div className="at-t">
             <div className="at-ph" style={lqip("p2")}>
               <img
+                loading="lazy"
                 src="/team/p2-blur.webp"
                 alt=""
                 width="720"
@@ -60,6 +62,7 @@ export function About() {
           <div className="at-t">
             <div className="at-ph" style={lqip("p3")}>
               <img
+                loading="lazy"
                 src="/team/p3-blur.webp"
                 alt=""
                 width="720"
@@ -75,6 +78,7 @@ export function About() {
           <div className="at-t">
             <div className="at-ph" style={lqip("p4")}>
               <img
+                loading="lazy"
                 src="/team/p4-blur.webp"
                 alt=""
                 width="720"
@@ -90,6 +94,7 @@ export function About() {
           <div className="at-t">
             <div className="at-ph" style={lqip("p5")}>
               <img
+                loading="lazy"
                 src="/team/p5-blur.webp"
                 alt=""
                 width="720"

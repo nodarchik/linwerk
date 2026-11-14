@@ -7,6 +7,9 @@ import { PageScope } from "@/components/layout/PageScope";
 import { ModalProvider } from "@/components/Modal";
 import { JOBS, getJob } from "@/data/jobs";
 
+// Only the slugs below exist; anything else is a 404.
+export const dynamicParams = false;
+
 export function generateStaticParams() {
   return JOBS.map(({ slug }) => ({ slug }));
 }

@@ -160,7 +160,7 @@ export function WhyUs() {
                   <ul className="fx-team">
                     <li>
                       <span className="fx-av">
-                        <img src="/people/2.webp" alt="" />
+                        <img loading="lazy" src="/people/2.webp" alt="" />
                       </span>
                       <b>Senior backend engineer</b>
                       <span className="fx-lo">From week 1</span>

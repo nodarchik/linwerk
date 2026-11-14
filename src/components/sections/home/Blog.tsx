@@ -16,6 +16,7 @@ export function Blog() {
               {" "}
               <div className="bc-art" aria-hidden="true" style={lqip("agency_launch")}>
                 <img
+                  loading="lazy"
                   src="/blog/agency-launch.webp"
                   alt=""
                   width="1200"
@@ -43,6 +44,7 @@ export function Blog() {
               {" "}
               <div className="bc-art" aria-hidden="true" style={lqip("going_digital")}>
                 <img
+                  loading="lazy"
                   src="/blog/going-digital.webp"
                   alt=""
                   width="1200"

@@ -41,7 +41,7 @@ export const JOB_COMMON: { hire: JobBlock; offer: JobBlock } = {
     list: [
       "Private health insurance for you and your family",
       "A yearly learning budget for courses, books and conferences",
-      "Remote set-up allowance, or a desk in our Tbilisi or Batumi office",
+      "Remote set-up allowance, or a desk in our Tbilisi office",
       "24 days of paid leave, plus Georgian public holidays",
       "Relocation and visa support for senior roles",
     ],
@@ -125,7 +125,7 @@ export const JOBS: Job[] = [
     slug: "lead-devops-engineer",
     title: "Lead DevOps Engineer",
     dept: "Engineering",
-    location: "Batumi",
+    location: "Tbilisi",
     mode: "Hybrid",
     type: "Full-time",
     level: "Lead",
@@ -133,7 +133,7 @@ export const JOBS: Job[] = [
     about: [
       "Every project we deliver runs on infrastructure we set up, and many of our clients keep us on to run it afterwards. Our platform team of four makes sure that shipping is boring: environments appear from code, releases are a button, and alerts mean something.",
       "As the lead, you will set the standards that every delivery team follows, and you will still be hands-on in the projects that need it most. This year that includes moving a logistics client from hand-built servers to Kubernetes on AWS, and bringing a fintech client to the audit standard their bank partners now ask for.",
-      "You will report to the CTO and work from our Batumi office two days a week.",
+      "You will report to the CTO and work from our Tbilisi office two days a week.",
     ],
     work: {
       intro: "Your time will split roughly evenly between leading the team and building with it.",
@@ -239,7 +239,7 @@ export const JOBS: Job[] = [
     slug: "delivery-lead",
     title: "Delivery Lead",
     dept: "Delivery",
-    location: "Batumi",
+    location: "Tbilisi",
     mode: "Hybrid",
     type: "Full-time",
     level: "Lead",
@@ -248,7 +248,7 @@ export const JOBS: Job[] = [
     about: [
       "Delivery leads are the reason our clients come back. You will run one or two client projects at a time, own the plan and the budget, and make sure the team spends its time building, not waiting.",
       "Your first project will be with a European fashion retailer moving its stores and online shop onto one commerce platform: a team of nine, three time zones, and a launch date that matters. You will work closely with the client’s product owner and with our engineering and design leads.",
-      "You will report to our Head of Delivery and work from our Batumi office two days a week.",
+      "You will report to our Head of Delivery and work from our Tbilisi office two days a week.",
     ],
     work: {
       intro: "You will own how the project runs, from the first plan to the final handover.",

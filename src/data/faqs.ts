@@ -161,8 +161,6 @@ export const CAREERS_FAQ: FaqItem[] = [
   },
   {
     question: "Do you sponsor relocation or visas?",
-    answer: [
-      "Yes, for Tbilisi: visa support and a relocation package for senior roles.",
-    ],
+    answer: ["Yes, for Tbilisi: visa support and a relocation package for senior roles."],
   },
 ];

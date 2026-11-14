@@ -13,21 +13,21 @@ export function Domains() {
           </Link>
         </div>
         <ul className="domain-grid">
-          <li>Fashion</li>
           <li>Fintech</li>
+          <li>Banking</li>
+          <li>Insurance</li>
           <li>Healthcare</li>
-          <li>Logistics</li>
-          <li>Retail &amp; E-commerce</li>
+          <li>Retail &amp; e-commerce</li>
           <li>Manufacturing</li>
-          <li>Real Estate</li>
+          <li>Logistics</li>
+          <li>Real estate</li>
           <li>Education</li>
           <li>Legal</li>
-          <li>Insurance</li>
           <li>Travel</li>
           <li>Media</li>
           <li>Energy</li>
           <li>Telecom</li>
-          <li>Public Sector</li>
+          <li>Public sector</li>
         </ul>
       </div>
     </section>

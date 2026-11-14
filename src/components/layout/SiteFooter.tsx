@@ -59,7 +59,7 @@ export function SiteFooter() {
             <h3 id="f-contact">Contact</h3>
             <ul aria-labelledby="f-contact">
               <li>
-                <a href="mailto:hello@example.com">Email</a>
+                <a href="mailto:info@linwerk.com">Email</a>
               </li>
               <li>
                 <a href="https://x.com/" rel="noopener">

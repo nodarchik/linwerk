@@ -89,7 +89,6 @@ export function WhatWeDo() {
                   <ul className="points">
                     <li>UI/UX</li>
                     <li>Product discovery</li>
-                    <li>Architecture consulting</li>
                     <li>CTO-as-a-service</li>
                   </ul>
                   <Link className="tlink" href="/services#design-technology-strategy">

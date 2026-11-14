@@ -225,6 +225,15 @@ export const JOBS: Job[] = [
       ],
     },
     nice: "B2B or operations software experience, basic front-end skills, or work on a design system used by several teams would all help.",
+    offer: {
+      intro:
+        "A contract rate we share in the first call, fixed for the twelve months, and the room to do careful work. Beyond that:",
+      list: [
+        "A desk in our Tbilisi office, next to the delivery team",
+        "Georgian public holidays off",
+        "Relocation and visa support",
+      ],
+    },
   },
   {
     slug: "delivery-lead",

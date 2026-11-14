@@ -4,10 +4,17 @@ export function Locations() {
       <div className="wrap geo">
         <div className="geo-txt">
           <h2 id="loc-title" data-reveal="">
-            One team, working worldwide
+            Based in Tbilisi, working worldwide
           </h2>
-          <p>We work with clients around the world, maisons across the LVMH group among them.</p>
+          <p>
+            Our home is Tbilisi. We hire engineers and work with clients around the world, maisons
+            across the LVMH group among them.
+          </p>
           <ul className="geo-rows">
+            <li>
+              <span className="mono">Headquarters</span>
+              <b>Tbilisi</b>
+            </li>
             <li>
               <span className="mono">Team</span>
               <b>

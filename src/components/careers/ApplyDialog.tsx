@@ -150,7 +150,7 @@ function ApplyForm({ opening, onSent }: { opening: number; onSent: () => void })
         </span>
       </div>
       <label className="ap-f full">
-        Anything you&apos;d like us to know (optional)
+        Anything you’d like us to know (optional)
         <textarea name="note" placeholder="Enter anything else we should know" />
       </label>{" "}
       <label className="ap-ok full" style={{ gridColumn: "1/-1" }}>

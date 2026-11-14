@@ -127,7 +127,7 @@ export const CAREERS_FAQ: FaqItem[] = [
   {
     question: "Is remote work genuinely available, or is it hybrid in practice?",
     answer: [
-      "Yes. Most roles are fully remote; hybrid teams meet in Tbilisi or Batumi two days a week.",
+      "Yes. Remote roles are fully remote; hybrid teams meet in Tbilisi or Batumi two days a week.",
     ],
   },
   {

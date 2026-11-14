@@ -18,7 +18,7 @@ export async function generateMetadata({
   params,
 }: PageProps<"/careers/[slug]">): Promise<Metadata> {
   const job = getJob((await params).slug);
-  return job ? { title: { absolute: `${job.title} · Careers · Linwerk` } } : {};
+  return job ? { title: `${job.title} · Careers`, description: job.summary } : {};
 }
 
 const TRAILS = ["hero"] as const;

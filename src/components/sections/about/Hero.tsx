@@ -22,13 +22,13 @@ export function Hero() {
           Engineers who own the outcome
         </h1>
         <p className="sub" data-reveal="">
-          Founded in 2014. 150+ specialists, building software for clients in 20+ countries.
+          Founded in 2021. 150+ specialists, building software for clients in 20+ countries.
         </p>
         <div className="ctas">
           <Link className="btn btn-primary" href="/request">
             Request engineers
           </Link>{" "}
-          <Link className="btn btn-ghost" href="/contact?type=project" prefetch={false}>
+          <Link className="btn btn-ghost" href="/contact?type=project">
             Discuss a project
           </Link>
         </div>

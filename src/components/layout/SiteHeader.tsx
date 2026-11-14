@@ -70,7 +70,7 @@ export function SiteHeader() {
           <NavList pathname={pathname} />
         </nav>
         <div className="header-ctas">
-          <Link className="tlink" href="/contact?type=project" prefetch={false}>
+          <Link className="tlink" href="/contact?type=project">
             Discuss a project
           </Link>
           <Link className="btn btn-primary btn-pill" href="/request">
@@ -96,7 +96,7 @@ export function SiteHeader() {
           <Link className="btn btn-primary" href="/request">
             Request engineers
           </Link>
-          <Link className="tlink" href="/contact?type=project" prefetch={false}>
+          <Link className="tlink" href="/contact?type=project">
             Discuss a project
           </Link>
         </div>

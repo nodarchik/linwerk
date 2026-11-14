@@ -1,7 +1,7 @@
 import { RequestSentDialog } from "@/components/forms/RequestSentDialog";
 
 /** The "Request sent" dialog: an envelope drawn in dots and lines, and the thanks. */
-export function RequestSent() {
+export function RequestSent({ title = "Request sent" }: { title?: string }) {
   return (
     <RequestSentDialog>
       <div className="rq-ok-in" tabIndex={-1} autoFocus>
@@ -108,7 +108,7 @@ export function RequestSent() {
           </g>
           <path className="rq-tick" pathLength="1" d="M146 58.5l5.5 5.5 10.5-11" />
         </svg>
-        <h2 id="rq-ok-t">Request sent</h2>
+        <h2 id="rq-ok-t">{title}</h2>
         <p id="rq-ok-d">Thanks, we’ll be in touch within two business days.</p>
       </div>
     </RequestSentDialog>

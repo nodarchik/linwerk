@@ -16,7 +16,7 @@ export async function generateMetadata({ params }: PageProps<"/blog/[slug]">): P
   const article = getArticle((await params).slug);
   return article
     ? {
-        title: { absolute: `${article.title} · Linwerk` },
+        title: article.title,
         description: article.summary,
       }
     : {};

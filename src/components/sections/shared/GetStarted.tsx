@@ -21,7 +21,7 @@ export function GetStarted() {
           <Link className="btn btn-primary" href="/request">
             Request engineers
           </Link>{" "}
-          <Link className="btn btn-ghost" href="/contact?type=project" prefetch={false}>
+          <Link className="btn btn-ghost" href="/contact?type=project">
             Discuss a project
           </Link>
         </div>

@@ -7,7 +7,7 @@ import { fontVars } from "./fonts";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: { default: "Linwerk", template: "Linwerk · %s" },
+  title: { default: "Linwerk", template: "%s · Linwerk" },
   description:
     "Senior engineers on your team within weeks, or a full product planned, built and run. Risk-free trial, no recruitment fee.",
 };

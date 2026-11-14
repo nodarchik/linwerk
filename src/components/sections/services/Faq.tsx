@@ -10,7 +10,7 @@ export function Faq() {
           <h2 id="faq-title" data-reveal="">
             Frequently asked questions
           </h2>
-          <Link className="btn btn-ghost" href="/contact?type=project" prefetch={false}>
+          <Link className="btn btn-ghost" href="/contact?type=project">
             Discuss a project
           </Link>
         </div>

@@ -12459,6 +12459,43 @@ body::before {
   letter-spacing: -0.01em;
   color: var(--forest);
 }
+:where(html:has(.sc)) .rq-f textarea {
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 132px;
+  margin: 0;
+  padding: 10px 14px;
+  border: 0;
+  border-radius: 6px;
+  background: #fff;
+  box-shadow: inset 0 0 0 1px var(--hair-2);
+  font: 400 16px/1.5 var(--font);
+  letter-spacing: -0.01em;
+  color: var(--forest);
+  resize: vertical;
+}
+:where(html:has(.sc)) .rq-f textarea::placeholder {
+  color: var(--quiet);
+}
+:where(html:has(.sc)) .rq-f textarea:focus {
+  outline: 0;
+  box-shadow:
+    inset 0 0 0 1px var(--botanical),
+    0 0 0 3px var(--cream);
+}
+:where(html:has(.sc)) .rq-f.is-bad textarea,
+:where(html:has(.sc)) .rq-f.is-bad textarea:focus {
+  box-shadow: inset 0 0 0 1px var(--coral);
+}
+:where(html:has(.sc)) .rq-alt {
+  margin: 40px 0 0;
+  font: 400 16px/1.5 var(--font);
+  color: var(--moss);
+}
+:where(html:has(.sc)) .rq-alt a {
+  color: var(--forest);
+  text-decoration: underline;
+}
 :where(html:has(.sc)) .rq-f input::placeholder {
   color: var(--quiet);
 }

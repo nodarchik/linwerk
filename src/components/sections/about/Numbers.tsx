@@ -28,8 +28,8 @@ export function Numbers() {
           </li>
           <li>
             <span className="v">
-              <span className="num-c" data-to="12">
-                12
+              <span className="num-c" data-to="5">
+                5
               </span>
             </span>
             <span className="l">years in business</span>

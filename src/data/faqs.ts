@@ -127,7 +127,7 @@ export const CAREERS_FAQ: FaqItem[] = [
   {
     question: "Is remote work genuinely available, or is it hybrid in practice?",
     answer: [
-      "Yes. Remote roles are fully remote; hybrid teams meet in Tbilisi or Batumi two days a week.",
+      "Yes. Remote roles are fully remote; hybrid teams meet in our Tbilisi office two days a week.",
     ],
   },
   {
@@ -161,8 +161,6 @@ export const CAREERS_FAQ: FaqItem[] = [
   },
   {
     question: "Do you sponsor relocation or visas?",
-    answer: [
-      "Yes, for Tbilisi and Batumi: visa support and a relocation package for senior roles.",
-    ],
+    answer: ["Yes, for Tbilisi: visa support and a relocation package for senior roles."],
   },
 ];

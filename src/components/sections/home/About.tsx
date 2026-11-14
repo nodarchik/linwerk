@@ -1,15 +1,8 @@
 import Link from "next/link";
-import { lqip } from "@/data/lqip";
 
 export function About() {
   return (
-    <section
-      className="about"
-      id="about"
-      data-ph="natural"
-      data-roles=""
-      aria-labelledby="about-title"
-    >
+    <section className="about" id="about" aria-labelledby="about-title">
       <div className="wrap">
         <div className="about-head">
           <h2 id="about-title" data-reveal="">
@@ -26,88 +19,6 @@ export function About() {
             </Link>
           </div>
         </div>
-        <figure className="about-team" aria-label="Five members of our team">
-          <div className="at-t">
-            <div className="at-ph" style={lqip("p1")}>
-              <img
-                loading="lazy"
-                src="/team/p1-blur.webp"
-                alt=""
-                width="720"
-                height="900"
-                fetchPriority="low"
-                decoding="async"
-              />
-            </div>
-            <p className="at-role">
-              <b>Delivery manager</b>
-            </p>
-          </div>
-          <div className="at-t">
-            <div className="at-ph" style={lqip("p2")}>
-              <img
-                loading="lazy"
-                src="/team/p2-blur.webp"
-                alt=""
-                width="720"
-                height="900"
-                fetchPriority="low"
-                decoding="async"
-              />
-            </div>
-            <p className="at-role">
-              <b>Backend engineer</b>
-            </p>
-          </div>
-          <div className="at-t">
-            <div className="at-ph" style={lqip("p3")}>
-              <img
-                loading="lazy"
-                src="/team/p3-blur.webp"
-                alt=""
-                width="720"
-                height="900"
-                fetchPriority="low"
-                decoding="async"
-              />
-            </div>
-            <p className="at-role">
-              <b>Product designer</b>
-            </p>
-          </div>
-          <div className="at-t">
-            <div className="at-ph" style={lqip("p4")}>
-              <img
-                loading="lazy"
-                src="/team/p4-blur.webp"
-                alt=""
-                width="720"
-                height="900"
-                fetchPriority="low"
-                decoding="async"
-              />
-            </div>
-            <p className="at-role">
-              <b>Frontend engineer</b>
-            </p>
-          </div>
-          <div className="at-t">
-            <div className="at-ph" style={lqip("p5")}>
-              <img
-                loading="lazy"
-                src="/team/p5-blur.webp"
-                alt=""
-                width="720"
-                height="900"
-                fetchPriority="low"
-                decoding="async"
-              />
-            </div>
-            <p className="at-role">
-              <b>QA lead</b>
-            </p>
-          </div>
-        </figure>
       </div>
     </section>
   );

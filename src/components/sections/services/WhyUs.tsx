@@ -159,8 +159,10 @@ export function WhyUs() {
                   </div>
                   <ul className="fx-team">
                     <li>
-                      <span className="fx-av">
-                        <img loading="lazy" src="/people/2.webp" alt="" />
+                      <span className="fx-av ic-tile">
+                        <svg className="ic">
+                          <use href="#i-code" />
+                        </svg>
                       </span>
                       <b>Senior backend engineer</b>
                       <span className="fx-lo">From week 1</span>

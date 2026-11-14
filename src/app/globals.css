@@ -3191,6 +3191,9 @@ body::before {
   flex-wrap: wrap;
   margin-bottom: clamp(40px, 5vw, 64px);
 }
+.about-head:last-child {
+  margin-bottom: 0;
+}
 .about-copy {
   display: flex;
   flex-direction: column;

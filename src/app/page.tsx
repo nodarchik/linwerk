@@ -31,7 +31,7 @@ export default function HomePage() {
       </main>
       <HeroSlider />
       <HomeScenes />
-      <PageFx reveal appear faq trails={TRAILS} lazyImages=".at-ph img,.bc-art img" />
+      <PageFx reveal appear faq trails={TRAILS} lazyImages=".bc-art img" />
     </>
   );
 }

@@ -22,7 +22,7 @@ export function Hero() {
           We learn your industry before we write code
         </h1>
         <p className="sub" data-reveal="">
-          Fourteen sectors, each with its own rules. We learn new ones fast.
+          Thirteen sectors, each with its own rules. We learn new ones fast.
         </p>
         <div className="ctas">
           <Link className="btn btn-primary" href="/request">

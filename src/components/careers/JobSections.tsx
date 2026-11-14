@@ -53,7 +53,7 @@ export function JobHero({ job }: { job: Job }) {
 
 const SECTIONS = [
   ["About the role", "about"],
-  ["What you'll work on", "work"],
+  ["What you’ll work on", "work"],
   ["About you", "you"],
   ["Nice to have", "nice"],
   ["How we hire", "hire"],

@@ -189,7 +189,7 @@ export const JOBS: Job[] = [
         "Clear, kind written communication",
       ],
     },
-    nice: "Experience with mobile testing, load testing or health-care software would be a plus.",
+    nice: "Experience with mobile testing, load testing or healthcare software would be a plus.",
   },
   {
     slug: "senior-product-designer",

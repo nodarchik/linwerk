@@ -17,7 +17,7 @@ export function WhatWeDo() {
         <div className="paths-list">
           <div className="engage-foot">
             <p>
-              Nineteen services across six practice areas. Whether you’re borrowing two of our
+              Twenty-four services across six practice areas. Whether you’re borrowing two of our
               engineers or handing us a product, this is what they draw on.
             </p>
             <Link className="tlink" href="/services">
@@ -38,11 +38,11 @@ export function WhatWeDo() {
                 <div>
                   <ul className="points">
                     <li>Custom software</li>
-                    <li>Web platforms</li>
-                    <li>Mobile apps</li>
-                    <li>SaaS products</li>
+                    <li>Web &amp; mobile apps</li>
+                    <li>SaaS platforms</li>
                     <li>MVPs</li>
                     <li>Enterprise systems</li>
+                    <li>Game development</li>
                   </ul>
                   <Link className="tlink" href="/services#product-software-engineering">
                     See the practice
@@ -64,7 +64,7 @@ export function WhatWeDo() {
                 <div>
                   <ul className="points">
                     <li>Machine learning</li>
-                    <li>Generative AI and agents</li>
+                    <li>Generative AI &amp; agents</li>
                     <li>Data platforms</li>
                     <li>Process automation</li>
                   </ul>

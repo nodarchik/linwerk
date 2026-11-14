@@ -6,7 +6,7 @@ export function HowWeWork() {
       <div className="wrap">
         <div className="sec-head">
           <h2 id="paths-title" data-reveal="">
-            How do you want to work with us <span className="emo">🤝</span>
+            How do you want to work with us? <span className="emo">🤝</span>
           </h2>
         </div>
         <div className="how-cols">

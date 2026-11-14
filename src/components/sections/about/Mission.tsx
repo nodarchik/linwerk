@@ -16,8 +16,8 @@ export function Mission() {
           <div className="jm-txt">
             <h2 id="mission-title">Every team, complete.</h2>
             <p>
-              We give companies the senior engineers they&apos;re missing, and give engineers work
-              that matters.
+              We give companies the senior engineers they’re missing, and give engineers work that
+              matters.
             </p>
             <Link className="btn btn-ghost" href="/contact?type=project" prefetch={false}>
               Discuss a project

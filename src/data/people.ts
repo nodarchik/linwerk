@@ -2,7 +2,7 @@
 export const PEOPLE = [
   {
     img: "/people/1.webp",
-    role: "Delivery manager",
+    role: "Delivery lead",
     skills: ["Agile", "Fintech", "Roadmaps"],
   },
   {

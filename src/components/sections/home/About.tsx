@@ -40,7 +40,7 @@ export function About() {
               />
             </div>
             <p className="at-role">
-              <b>Delivery manager</b>
+              <b>Delivery lead</b>
             </p>
           </div>
           <div className="at-t">

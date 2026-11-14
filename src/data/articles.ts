@@ -48,7 +48,7 @@ export const ARTICLES: Article[] = [
       {
         h: "The first conversation",
       },
-      "It takes about thirty minutes. We ask what you are building, where the team is stretched and what a good first month would look like. Within two business days you get matched engineers to interview, or a short plan if you need a whole project.",
+      "It takes thirty to forty-five minutes. We ask what you are building, where the team is stretched and what a good first month would look like. Within two business days you get matched engineers to interview, or a short plan if you need a whole project.",
       "If we are not the right fit, we will say so in that call. That is the fastest way to earn your trust.",
     ],
   },

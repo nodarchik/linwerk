@@ -45,12 +45,20 @@ export function SmoothScroll() {
     const ac = new AbortController();
     let moved = false;
     for (const type of ["wheel", "touchstart", "keydown", "pointerdown"]) {
-      window.addEventListener(type, () => (moved = true), { once: true, passive: true, signal: ac.signal });
+      window.addEventListener(type, () => (moved = true), {
+        once: true,
+        passive: true,
+        signal: ac.signal,
+      });
     }
     if (document.readyState !== "complete") {
-      window.addEventListener("load", () => !moved && toTop(), { signal: ac.signal });
+      window.addEventListener("load", () => !moved && toTop(), {
+        signal: ac.signal,
+      });
     }
-    window.addEventListener("pageshow", (e) => e.persisted && toTop(), { signal: ac.signal });
+    window.addEventListener("pageshow", (e) => e.persisted && toTop(), {
+      signal: ac.signal,
+    });
     return () => ac.abort();
   }, [pathname]);
 

@@ -14,18 +14,14 @@ export function GetStarted() {
       </div>
       <div className="wrap">
         <h2 id="closing-title" data-reveal="">
-          Start small <span className="emo">🌱</span> or hand us the whole
-          product
+          Start small <span className="emo">🌱</span> or hand us the whole product
         </h2>
-        <p>
-          Matched engineers to interview, or a project plan within two business
-          days.
-        </p>
+        <p>Matched engineers to interview, or a project plan within two business days.</p>
         <div className="ctas">
           <Link className="btn btn-primary" href="/request">
             Request engineers
           </Link>{" "}
-          <Link className="btn btn-ghost" href="/contact?type=project">
+          <Link className="btn btn-ghost" href="/contact?type=project" prefetch={false}>
             Discuss a project
           </Link>
         </div>

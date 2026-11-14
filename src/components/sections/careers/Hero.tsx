@@ -2,12 +2,7 @@ import Link from "next/link";
 
 export function Hero() {
   return (
-    <section
-      className="svh"
-      id="hero"
-      data-bg="trail"
-      aria-labelledby="hero-title"
-    >
+    <section className="svh" id="hero" data-bg="trail" aria-labelledby="hero-title">
       <div className="hero-sky" aria-hidden="true">
         <div className="hb hb-dots" />
         <div className="hb hb-trail" />

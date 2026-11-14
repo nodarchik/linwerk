@@ -8,17 +8,9 @@ export function WhatWeBuild() {
           </h2>
         </div>
         <div className="prs">
-          <article
-            className="prow"
-            id="ai-data-automation"
-            aria-labelledby="ai-data-automation-t"
-          >
+          <article className="prow" id="ai-data-automation" aria-labelledby="ai-data-automation-t">
             <span className="prow-art" aria-hidden="true">
-              <svg
-                className="pa-art"
-                viewBox="-28.1 -28.1 256.1 256.1"
-                aria-hidden="true"
-              >
+              <svg className="pa-art" viewBox="-28.1 -28.1 256.1 256.1" aria-hidden="true">
                 <defs className="guides">
                   <circle className="ds" cx="100" cy="100" r="58" fill="none" />
                   <polygon
@@ -26,48 +18,12 @@ export function WhatWeBuild() {
                     points="100.0,22.0 167.5,61.0 167.5,139.0 100.0,178.0 32.5,139.0 32.5,61.0"
                     fill="none"
                   />
-                  <line
-                    className="ds"
-                    x1="100.0"
-                    y1="22.0"
-                    x2="100.0"
-                    y2="100.0"
-                  />
-                  <line
-                    className="ds"
-                    x1="167.5"
-                    y1="61.0"
-                    x2="100.0"
-                    y2="100.0"
-                  />
-                  <line
-                    className="ds"
-                    x1="167.5"
-                    y1="139.0"
-                    x2="100.0"
-                    y2="100.0"
-                  />
-                  <line
-                    className="ds"
-                    x1="100.0"
-                    y1="178.0"
-                    x2="100.0"
-                    y2="100.0"
-                  />
-                  <line
-                    className="ds"
-                    x1="32.5"
-                    y1="139.0"
-                    x2="100.0"
-                    y2="100.0"
-                  />
-                  <line
-                    className="ds"
-                    x1="32.5"
-                    y1="61.0"
-                    x2="100.0"
-                    y2="100.0"
-                  />
+                  <line className="ds" x1="100.0" y1="22.0" x2="100.0" y2="100.0" />
+                  <line className="ds" x1="167.5" y1="61.0" x2="100.0" y2="100.0" />
+                  <line className="ds" x1="167.5" y1="139.0" x2="100.0" y2="100.0" />
+                  <line className="ds" x1="100.0" y1="178.0" x2="100.0" y2="100.0" />
+                  <line className="ds" x1="32.5" y1="139.0" x2="100.0" y2="100.0" />
+                  <line className="ds" x1="32.5" y1="61.0" x2="100.0" y2="100.0" />
                 </defs>
                 <path
                   className="dt"
@@ -209,70 +165,16 @@ export function WhatWeBuild() {
                     strokeWidth="19.74"
                   />
                 </g>
-                <line
-                  className="ln"
-                  x1="100.0"
-                  y1="22.0"
-                  x2="119.0"
-                  y2="67.1"
-                />
+                <line className="ln" x1="100.0" y1="22.0" x2="119.0" y2="67.1" />
                 <line className="ln" x1="100.0" y1="22.0" x2="81.0" y2="67.1" />
-                <line
-                  className="ln"
-                  x1="167.5"
-                  y1="61.0"
-                  x2="138.0"
-                  y2="100.0"
-                />
-                <line
-                  className="ln"
-                  x1="167.5"
-                  y1="61.0"
-                  x2="119.0"
-                  y2="67.1"
-                />
-                <line
-                  className="ln"
-                  x1="167.5"
-                  y1="139.0"
-                  x2="119.0"
-                  y2="132.9"
-                />
-                <line
-                  className="ln"
-                  x1="167.5"
-                  y1="139.0"
-                  x2="138.0"
-                  y2="100.0"
-                />
-                <line
-                  className="ln"
-                  x1="100.0"
-                  y1="178.0"
-                  x2="81.0"
-                  y2="132.9"
-                />
-                <line
-                  className="ln"
-                  x1="100.0"
-                  y1="178.0"
-                  x2="119.0"
-                  y2="132.9"
-                />
-                <line
-                  className="ln"
-                  x1="32.5"
-                  y1="139.0"
-                  x2="62.0"
-                  y2="100.0"
-                />
-                <line
-                  className="ln"
-                  x1="32.5"
-                  y1="139.0"
-                  x2="81.0"
-                  y2="132.9"
-                />
+                <line className="ln" x1="167.5" y1="61.0" x2="138.0" y2="100.0" />
+                <line className="ln" x1="167.5" y1="61.0" x2="119.0" y2="67.1" />
+                <line className="ln" x1="167.5" y1="139.0" x2="119.0" y2="132.9" />
+                <line className="ln" x1="167.5" y1="139.0" x2="138.0" y2="100.0" />
+                <line className="ln" x1="100.0" y1="178.0" x2="81.0" y2="132.9" />
+                <line className="ln" x1="100.0" y1="178.0" x2="119.0" y2="132.9" />
+                <line className="ln" x1="32.5" y1="139.0" x2="62.0" y2="100.0" />
+                <line className="ln" x1="32.5" y1="139.0" x2="81.0" y2="132.9" />
                 <line className="ln" x1="32.5" y1="61.0" x2="81.0" y2="67.1" />
                 <line className="ln" x1="32.5" y1="61.0" x2="62.0" y2="100.0" />
                 <polygon
@@ -301,9 +203,7 @@ export function WhatWeBuild() {
             <div>
               <h3 id="ai-data-automation-t">AI, Data &amp; Automation</h3>
               <ul>
-                <li id="generative-ai-llms-ai-agents">
-                  Generative AI &amp; agents
-                </li>
+                <li id="generative-ai-llms-ai-agents">Generative AI &amp; agents</li>
                 <li id="ai-machine-learning-development">Machine learning</li>
                 <li id="data-engineering-analytics">Data platforms</li>
                 <li id="business-process-automation-rpa">Process automation</li>
@@ -317,96 +217,20 @@ export function WhatWeBuild() {
             aria-labelledby="product-software-engineering-t"
           >
             <span className="prow-art" aria-hidden="true">
-              <svg
-                className="pa-art"
-                viewBox="-16.3 -12.3 232.7 232.7"
-                aria-hidden="true"
-              >
+              <svg className="pa-art" viewBox="-16.3 -12.3 232.7 232.7" aria-hidden="true">
                 <defs className="guides">
-                  <line
-                    className="ds"
-                    x1="118.5"
-                    y1="50.7"
-                    x2="63.0"
-                    y2="82.7"
-                  />
-                  <line
-                    className="ds"
-                    x1="81.5"
-                    y1="50.7"
-                    x2="137.0"
-                    y2="82.7"
-                  />
-                  <line
-                    className="ds"
-                    x1="137.0"
-                    y1="61.3"
-                    x2="81.5"
-                    y2="93.3"
-                  />
-                  <line
-                    className="ds"
-                    x1="63.0"
-                    y1="61.3"
-                    x2="118.5"
-                    y2="93.3"
-                  />
-                  <line
-                    className="ds"
-                    x1="63.0"
-                    y1="82.7"
-                    x2="63.0"
-                    y2="146.7"
-                  />
-                  <line
-                    className="ds"
-                    x1="44.6"
-                    y1="93.3"
-                    x2="100.0"
-                    y2="125.3"
-                  />
-                  <line
-                    className="ds"
-                    x1="81.5"
-                    y1="93.3"
-                    x2="81.5"
-                    y2="157.3"
-                  />
-                  <line
-                    className="ds"
-                    x1="44.6"
-                    y1="114.7"
-                    x2="100.0"
-                    y2="146.7"
-                  />
-                  <line
-                    className="ds"
-                    x1="118.5"
-                    y1="93.3"
-                    x2="118.5"
-                    y2="157.3"
-                  />
-                  <line
-                    className="ds"
-                    x1="100.0"
-                    y1="125.3"
-                    x2="155.4"
-                    y2="93.3"
-                  />
-                  <line
-                    className="ds"
-                    x1="137.0"
-                    y1="82.7"
-                    x2="137.0"
-                    y2="146.7"
-                  />
-                  <line
-                    className="ds"
-                    x1="100.0"
-                    y1="146.7"
-                    x2="155.4"
-                    y2="114.7"
-                  />
+                  <line className="ds" x1="118.5" y1="50.7" x2="63.0" y2="82.7" />
+                  <line className="ds" x1="81.5" y1="50.7" x2="137.0" y2="82.7" />
+                  <line className="ds" x1="137.0" y1="61.3" x2="81.5" y2="93.3" />
+                  <line className="ds" x1="63.0" y1="61.3" x2="118.5" y2="93.3" />
+                  <line className="ds" x1="63.0" y1="82.7" x2="63.0" y2="146.7" />
+                  <line className="ds" x1="44.6" y1="93.3" x2="100.0" y2="125.3" />
+                  <line className="ds" x1="81.5" y1="93.3" x2="81.5" y2="157.3" />
+                  <line className="ds" x1="44.6" y1="114.7" x2="100.0" y2="146.7" />
+                  <line className="ds" x1="118.5" y1="93.3" x2="118.5" y2="157.3" />
+                  <line className="ds" x1="100.0" y1="125.3" x2="155.4" y2="93.3" />
+                  <line className="ds" x1="137.0" y1="82.7" x2="137.0" y2="146.7" />
+                  <line className="ds" x1="100.0" y1="146.7" x2="155.4" y2="114.7" />
                 </defs>
                 <path
                   className="dt"
@@ -414,10 +238,7 @@ export function WhatWeBuild() {
                 />
                 <g className="gl" clipPath="url(#sc3)">
                   <clipPath id="sc3">
-                    <polygon
-                      className="gl"
-                      points="100.0,40.0 155.4,72.0 100.0,104.0 44.6,72.0"
-                    />
+                    <polygon className="gl" points="100.0,40.0 155.4,72.0 100.0,104.0 44.6,72.0" />
                   </clipPath>
                   <polygon
                     className="gb"
@@ -482,10 +303,7 @@ export function WhatWeBuild() {
                 </g>
                 <g className="gl" clipPath="url(#sc4)">
                   <clipPath id="sc4">
-                    <polygon
-                      className="gl"
-                      points="44.6,72.0 100.0,104.0 100.0,168.0 44.6,136.0"
-                    />
+                    <polygon className="gl" points="44.6,72.0 100.0,104.0 100.0,168.0 44.6,136.0" />
                   </clipPath>
                   <polygon
                     className="gb"
@@ -616,22 +434,10 @@ export function WhatWeBuild() {
                     strokeWidth="16.62"
                   />
                 </g>
-                <polygon
-                  className="ln"
-                  points="100.0,61.3 118.5,72.0 100.0,82.7 81.5,72.0"
-                />
-                <polygon
-                  className="ln"
-                  points="100.0,40.0 155.4,72.0 100.0,104.0 44.6,72.0"
-                />
-                <polygon
-                  className="ln"
-                  points="44.6,72.0 100.0,104.0 100.0,168.0 44.6,136.0"
-                />
-                <polygon
-                  className="ln"
-                  points="100.0,104.0 155.4,72.0 155.4,136.0 100.0,168.0"
-                />
+                <polygon className="ln" points="100.0,61.3 118.5,72.0 100.0,82.7 81.5,72.0" />
+                <polygon className="ln" points="100.0,40.0 155.4,72.0 100.0,104.0 44.6,72.0" />
+                <polygon className="ln" points="44.6,72.0 100.0,104.0 100.0,168.0 44.6,136.0" />
+                <polygon className="ln" points="100.0,104.0 155.4,72.0 155.4,136.0 100.0,168.0" />
                 <circle className="nd" cx="44.6" cy="72.0" r="2.2" />
                 <circle className="nd" cx="44.6" cy="93.3" r="2.2" />
                 <circle className="nd" cx="44.6" cy="114.7" r="2.2" />
@@ -672,20 +478,14 @@ export function WhatWeBuild() {
               </svg>
             </span>
             <div>
-              <h3 id="product-software-engineering-t">
-                Product &amp; Software Engineering
-              </h3>
+              <h3 id="product-software-engineering-t">Product &amp; Software Engineering</h3>
               <ul>
                 <li id="custom-software-development">Custom software</li>
                 <li id="web-mobile-app-development">Web &amp; mobile apps</li>
-                <li id="saas-multi-tenant-platform-engineering">
-                  SaaS platforms
-                </li>
+                <li id="saas-multi-tenant-platform-engineering">SaaS platforms</li>
                 <li id="mvp-product-launch">MVPs</li>
                 <li>XR</li>
-                <li id="enterprise-software-business-systems">
-                  Enterprise systems
-                </li>
+                <li id="enterprise-software-business-systems">Enterprise systems</li>
                 <li>Game development</li>
               </ul>
             </div>
@@ -696,54 +496,14 @@ export function WhatWeBuild() {
             aria-labelledby="cloud-devops-infrastructure-t"
           >
             <span className="prow-art" aria-hidden="true">
-              <svg
-                className="pa-art"
-                viewBox="-32.6 -6.1 265.2 265.2"
-                aria-hidden="true"
-              >
+              <svg className="pa-art" viewBox="-32.6 -6.1 265.2 265.2" aria-hidden="true">
                 <defs className="guides">
-                  <line
-                    className="ds"
-                    x1="126.0"
-                    y1="83.0"
-                    x2="22.1"
-                    y2="143.0"
-                  />
-                  <line
-                    className="ds"
-                    x1="74.0"
-                    y1="83.0"
-                    x2="177.9"
-                    y2="143.0"
-                  />
-                  <line
-                    className="ds"
-                    x1="152.0"
-                    y1="98.0"
-                    x2="48.0"
-                    y2="158.0"
-                  />
-                  <line
-                    className="ds"
-                    x1="48.0"
-                    y1="98.0"
-                    x2="152.0"
-                    y2="158.0"
-                  />
-                  <line
-                    className="ds"
-                    x1="177.9"
-                    y1="113.0"
-                    x2="74.0"
-                    y2="173.0"
-                  />
-                  <line
-                    className="ds"
-                    x1="22.1"
-                    y1="113.0"
-                    x2="126.0"
-                    y2="173.0"
-                  />
+                  <line className="ds" x1="126.0" y1="83.0" x2="22.1" y2="143.0" />
+                  <line className="ds" x1="74.0" y1="83.0" x2="177.9" y2="143.0" />
+                  <line className="ds" x1="152.0" y1="98.0" x2="48.0" y2="158.0" />
+                  <line className="ds" x1="48.0" y1="98.0" x2="152.0" y2="158.0" />
+                  <line className="ds" x1="177.9" y1="113.0" x2="74.0" y2="173.0" />
+                  <line className="ds" x1="22.1" y1="113.0" x2="126.0" y2="173.0" />
                 </defs>
                 <path
                   className="dt"
@@ -817,10 +577,7 @@ export function WhatWeBuild() {
                     strokeWidth="36.00"
                   />
                 </g>
-                <polygon
-                  className="ln"
-                  points="100.0,68.0 203.9,128.0 100.0,188.0 -3.9,128.0"
-                />
+                <polygon className="ln" points="100.0,68.0 203.9,128.0 100.0,188.0 -3.9,128.0" />
                 <polygon
                   className="bg"
                   points="74.0,80.0 100.0,65.0 126.0,80.0 126.0,104.0 100.0,119.0 74.0,104.0"
@@ -893,29 +650,11 @@ export function WhatWeBuild() {
                     strokeWidth="15.60"
                   />
                 </g>
-                <polygon
-                  className="ln"
-                  points="100.0,65.0 126.0,80.0 100.0,95.0 74.0,80.0"
-                />
-                <line
-                  className="ln"
-                  x1="126.0"
-                  y1="80.0"
-                  x2="126.0"
-                  y2="104.0"
-                />
-                <line
-                  className="ln"
-                  x1="100.0"
-                  y1="95.0"
-                  x2="100.0"
-                  y2="119.0"
-                />
+                <polygon className="ln" points="100.0,65.0 126.0,80.0 100.0,95.0 74.0,80.0" />
+                <line className="ln" x1="126.0" y1="80.0" x2="126.0" y2="104.0" />
+                <line className="ln" x1="100.0" y1="95.0" x2="100.0" y2="119.0" />
                 <line className="ln" x1="74.0" y1="80.0" x2="74.0" y2="104.0" />
-                <polyline
-                  className="ln"
-                  points="74.0,104.0 100.0,119.0 126.0,104.0"
-                />
+                <polyline className="ln" points="74.0,104.0 100.0,119.0 126.0,104.0" />
                 <polygon
                   className="bg"
                   points="40.0,102.0 66.0,87.0 92.0,102.0 92.0,126.0 66.0,141.0 40.0,126.0"
@@ -988,35 +727,11 @@ export function WhatWeBuild() {
                     strokeWidth="15.60"
                   />
                 </g>
-                <polygon
-                  className="ln"
-                  points="66.0,87.0 92.0,102.0 66.0,117.0 40.0,102.0"
-                />
-                <line
-                  className="ln"
-                  x1="92.0"
-                  y1="102.0"
-                  x2="92.0"
-                  y2="126.0"
-                />
-                <line
-                  className="ln"
-                  x1="66.0"
-                  y1="117.0"
-                  x2="66.0"
-                  y2="141.0"
-                />
-                <line
-                  className="ln"
-                  x1="40.0"
-                  y1="102.0"
-                  x2="40.0"
-                  y2="126.0"
-                />
-                <polyline
-                  className="ln"
-                  points="40.0,126.0 66.0,141.0 92.0,126.0"
-                />
+                <polygon className="ln" points="66.0,87.0 92.0,102.0 66.0,117.0 40.0,102.0" />
+                <line className="ln" x1="92.0" y1="102.0" x2="92.0" y2="126.0" />
+                <line className="ln" x1="66.0" y1="117.0" x2="66.0" y2="141.0" />
+                <line className="ln" x1="40.0" y1="102.0" x2="40.0" y2="126.0" />
+                <polyline className="ln" points="40.0,126.0 66.0,141.0 92.0,126.0" />
                 <polygon
                   className="bg"
                   points="108.0,102.0 134.0,87.0 160.0,102.0 160.0,126.0 134.0,141.0 108.0,126.0"
@@ -1089,35 +804,11 @@ export function WhatWeBuild() {
                     strokeWidth="15.60"
                   />
                 </g>
-                <polygon
-                  className="ln"
-                  points="134.0,87.0 160.0,102.0 134.0,117.0 108.0,102.0"
-                />
-                <line
-                  className="ln"
-                  x1="160.0"
-                  y1="102.0"
-                  x2="160.0"
-                  y2="126.0"
-                />
-                <line
-                  className="ln"
-                  x1="134.0"
-                  y1="117.0"
-                  x2="134.0"
-                  y2="141.0"
-                />
-                <line
-                  className="ln"
-                  x1="108.0"
-                  y1="102.0"
-                  x2="108.0"
-                  y2="126.0"
-                />
-                <polyline
-                  className="ln"
-                  points="108.0,126.0 134.0,141.0 160.0,126.0"
-                />
+                <polygon className="ln" points="134.0,87.0 160.0,102.0 134.0,117.0 108.0,102.0" />
+                <line className="ln" x1="160.0" y1="102.0" x2="160.0" y2="126.0" />
+                <line className="ln" x1="134.0" y1="117.0" x2="134.0" y2="141.0" />
+                <line className="ln" x1="108.0" y1="102.0" x2="108.0" y2="126.0" />
+                <polyline className="ln" points="108.0,126.0 134.0,141.0 160.0,126.0" />
                 <circle className="nd" cx="100.0" cy="65.0" r="2.2" />
                 <circle className="nd" cx="126.0" cy="80.0" r="2.2" />
                 <circle className="nd" cx="100.0" cy="95.0" r="2.2" />
@@ -1143,15 +834,11 @@ export function WhatWeBuild() {
               </svg>
             </span>
             <div>
-              <h3 id="cloud-devops-infrastructure-t">
-                Cloud, DevOps &amp; Infrastructure
-              </h3>
+              <h3 id="cloud-devops-infrastructure-t">Cloud, DevOps &amp; Infrastructure</h3>
               <ul>
                 <li id="cloud-development-migration">Cloud &amp; migration</li>
                 <li>IoT &amp; embedded</li>
-                <li id="devops-platform-engineering">
-                  DevOps &amp; platform engineering
-                </li>
+                <li id="devops-platform-engineering">DevOps &amp; platform engineering</li>
                 <li>High-load &amp; real-time systems</li>
               </ul>
             </div>
@@ -1162,83 +849,19 @@ export function WhatWeBuild() {
             aria-labelledby="integration-modernisation-t"
           >
             <span className="prow-art" aria-hidden="true">
-              <svg
-                className="pa-art"
-                viewBox="0.8 -3.2 206.5 206.5"
-                aria-hidden="true"
-              >
+              <svg className="pa-art" viewBox="0.8 -3.2 206.5 206.5" aria-hidden="true">
                 <defs className="guides">
-                  <line
-                    className="ds"
-                    x1="48.0"
-                    y1="64.0"
-                    x2="48.0"
-                    y2="136.0"
-                  />
-                  <line
-                    className="ds"
-                    x1="28.0"
-                    y1="88.0"
-                    x2="88.0"
-                    y2="88.0"
-                  />
-                  <line
-                    className="ds"
-                    x1="68.0"
-                    y1="64.0"
-                    x2="68.0"
-                    y2="136.0"
-                  />
-                  <line
-                    className="ds"
-                    x1="28.0"
-                    y1="112.0"
-                    x2="88.0"
-                    y2="112.0"
-                  />
+                  <line className="ds" x1="48.0" y1="64.0" x2="48.0" y2="136.0" />
+                  <line className="ds" x1="28.0" y1="88.0" x2="88.0" y2="88.0" />
+                  <line className="ds" x1="68.0" y1="64.0" x2="68.0" y2="136.0" />
+                  <line className="ds" x1="28.0" y1="112.0" x2="88.0" y2="112.0" />
                   <circle className="ds" cx="140" cy="100" r="24" />
-                  <line
-                    className="ds"
-                    x1="140.0"
-                    y1="100.0"
-                    x2="180.0"
-                    y2="100.0"
-                  />
-                  <line
-                    className="ds"
-                    x1="140.0"
-                    y1="100.0"
-                    x2="160.0"
-                    y2="134.6"
-                  />
-                  <line
-                    className="ds"
-                    x1="140.0"
-                    y1="100.0"
-                    x2="120.0"
-                    y2="134.6"
-                  />
-                  <line
-                    className="ds"
-                    x1="140.0"
-                    y1="100.0"
-                    x2="100.0"
-                    y2="100.0"
-                  />
-                  <line
-                    className="ds"
-                    x1="140.0"
-                    y1="100.0"
-                    x2="120.0"
-                    y2="65.4"
-                  />
-                  <line
-                    className="ds"
-                    x1="140.0"
-                    y1="100.0"
-                    x2="160.0"
-                    y2="65.4"
-                  />
+                  <line className="ds" x1="140.0" y1="100.0" x2="180.0" y2="100.0" />
+                  <line className="ds" x1="140.0" y1="100.0" x2="160.0" y2="134.6" />
+                  <line className="ds" x1="140.0" y1="100.0" x2="120.0" y2="134.6" />
+                  <line className="ds" x1="140.0" y1="100.0" x2="100.0" y2="100.0" />
+                  <line className="ds" x1="140.0" y1="100.0" x2="120.0" y2="65.4" />
+                  <line className="ds" x1="140.0" y1="100.0" x2="160.0" y2="65.4" />
                 </defs>
                 <path
                   className="dt"
@@ -1246,10 +869,7 @@ export function WhatWeBuild() {
                 />
                 <g className="gl" clipPath="url(#sc10)">
                   <clipPath id="sc10">
-                    <polygon
-                      className="gl"
-                      points="28.0,64.0 88.0,64.0 88.0,136.0 28.0,136.0"
-                    />
+                    <polygon className="gl" points="28.0,64.0 88.0,64.0 88.0,136.0 28.0,136.0" />
                   </clipPath>
                   <polygon
                     className="gb"
@@ -1312,115 +932,28 @@ export function WhatWeBuild() {
                     strokeWidth="18.00"
                   />
                 </g>
-                <polygon
-                  className="ln"
-                  points="28.0,64.0 88.0,64.0 88.0,136.0 28.0,136.0"
-                />
+                <polygon className="ln" points="28.0,64.0 88.0,64.0 88.0,136.0 28.0,136.0" />
                 <g className="gl" clipPath="url(#sc11)">
                   <clipPath id="sc11">
                     <circle className="gl" cx="140" cy="100" r="40" />
                   </clipPath>
-                  <circle
-                    className="gb"
-                    cx="140"
-                    cy="100"
-                    r="40"
-                    strokeWidth="2.00"
-                  />
-                  <circle
-                    className="gb"
-                    cx="140"
-                    cy="100"
-                    r="40"
-                    strokeWidth="4.00"
-                  />
-                  <circle
-                    className="gb"
-                    cx="140"
-                    cy="100"
-                    r="40"
-                    strokeWidth="6.00"
-                  />
-                  <circle
-                    className="gb"
-                    cx="140"
-                    cy="100"
-                    r="40"
-                    strokeWidth="8.00"
-                  />
-                  <circle
-                    className="gb"
-                    cx="140"
-                    cy="100"
-                    r="40"
-                    strokeWidth="10.00"
-                  />
-                  <circle
-                    className="gb"
-                    cx="140"
-                    cy="100"
-                    r="40"
-                    strokeWidth="12.00"
-                  />
-                  <circle
-                    className="gb"
-                    cx="140"
-                    cy="100"
-                    r="40"
-                    strokeWidth="14.00"
-                  />
-                  <circle
-                    className="gb"
-                    cx="140"
-                    cy="100"
-                    r="40"
-                    strokeWidth="16.00"
-                  />
-                  <circle
-                    className="gb"
-                    cx="140"
-                    cy="100"
-                    r="40"
-                    strokeWidth="18.00"
-                  />
-                  <circle
-                    className="gb"
-                    cx="140"
-                    cy="100"
-                    r="40"
-                    strokeWidth="20.00"
-                  />
-                  <circle
-                    className="gb"
-                    cx="140"
-                    cy="100"
-                    r="40"
-                    strokeWidth="22.00"
-                  />
-                  <circle
-                    className="gb"
-                    cx="140"
-                    cy="100"
-                    r="40"
-                    strokeWidth="24.00"
-                  />
+                  <circle className="gb" cx="140" cy="100" r="40" strokeWidth="2.00" />
+                  <circle className="gb" cx="140" cy="100" r="40" strokeWidth="4.00" />
+                  <circle className="gb" cx="140" cy="100" r="40" strokeWidth="6.00" />
+                  <circle className="gb" cx="140" cy="100" r="40" strokeWidth="8.00" />
+                  <circle className="gb" cx="140" cy="100" r="40" strokeWidth="10.00" />
+                  <circle className="gb" cx="140" cy="100" r="40" strokeWidth="12.00" />
+                  <circle className="gb" cx="140" cy="100" r="40" strokeWidth="14.00" />
+                  <circle className="gb" cx="140" cy="100" r="40" strokeWidth="16.00" />
+                  <circle className="gb" cx="140" cy="100" r="40" strokeWidth="18.00" />
+                  <circle className="gb" cx="140" cy="100" r="40" strokeWidth="20.00" />
+                  <circle className="gb" cx="140" cy="100" r="40" strokeWidth="22.00" />
+                  <circle className="gb" cx="140" cy="100" r="40" strokeWidth="24.00" />
                 </g>
                 <circle className="ln" cx="140" cy="100" r="40" />
                 <line className="ln" x1="88.0" y1="76.0" x2="108.0" y2="76.0" />
-                <line
-                  className="ln"
-                  x1="88.0"
-                  y1="100.0"
-                  x2="100.0"
-                  y2="100.0"
-                />
-                <line
-                  className="ln"
-                  x1="88.0"
-                  y1="124.0"
-                  x2="108.0"
-                  y2="124.0"
-                />
+                <line className="ln" x1="88.0" y1="100.0" x2="100.0" y2="100.0" />
+                <line className="ln" x1="88.0" y1="124.0" x2="108.0" y2="124.0" />
                 <circle className="nd" cx="28.0" cy="64.0" r="2.2" />
                 <circle className="nd" cx="88.0" cy="64.0" r="2.2" />
                 <circle className="nd" cx="88.0" cy="136.0" r="2.2" />
@@ -1440,16 +973,10 @@ export function WhatWeBuild() {
               </svg>
             </span>
             <div>
-              <h3 id="integration-modernisation-t">
-                Integration &amp; Modernisation
-              </h3>
+              <h3 id="integration-modernisation-t">Integration &amp; Modernisation</h3>
               <ul>
-                <li id="system-integration-api-engineering">
-                  Integrations &amp; APIs
-                </li>
-                <li id="legacy-modernisation-re-platforming">
-                  Legacy modernisation
-                </li>
+                <li id="system-integration-api-engineering">Integrations &amp; APIs</li>
+                <li id="legacy-modernisation-re-platforming">Legacy modernisation</li>
                 <li>Blockchain &amp; Web3</li>
               </ul>
             </div>
@@ -1460,72 +987,17 @@ export function WhatWeBuild() {
             aria-labelledby="design-technology-strategy-t"
           >
             <span className="prow-art" aria-hidden="true">
-              <svg
-                className="pa-art"
-                viewBox="-27.2 -27.2 254.4 254.4"
-                aria-hidden="true"
-              >
+              <svg className="pa-art" viewBox="-27.2 -27.2 254.4 254.4" aria-hidden="true">
                 <defs className="guides">
-                  <line
-                    className="ds"
-                    x1="68.0"
-                    y1="36.0"
-                    x2="68.0"
-                    y2="164.0"
-                  />
-                  <line
-                    className="ds"
-                    x1="36.0"
-                    y1="68.0"
-                    x2="164.0"
-                    y2="68.0"
-                  />
-                  <line
-                    className="ds"
-                    x1="100.0"
-                    y1="36.0"
-                    x2="100.0"
-                    y2="164.0"
-                  />
-                  <line
-                    className="ds"
-                    x1="36.0"
-                    y1="100.0"
-                    x2="164.0"
-                    y2="100.0"
-                  />
-                  <line
-                    className="ds"
-                    x1="132.0"
-                    y1="36.0"
-                    x2="132.0"
-                    y2="164.0"
-                  />
-                  <line
-                    className="ds"
-                    x1="36.0"
-                    y1="132.0"
-                    x2="164.0"
-                    y2="132.0"
-                  />
-                  <polygon
-                    className="ds"
-                    points="36.0,36.0 164.0,36.0 164.0,164.0 36.0,164.0"
-                  />
-                  <line
-                    className="ds"
-                    x1="36.0"
-                    y1="36.0"
-                    x2="164.0"
-                    y2="164.0"
-                  />
-                  <line
-                    className="ds"
-                    x1="164.0"
-                    y1="36.0"
-                    x2="36.0"
-                    y2="164.0"
-                  />
+                  <line className="ds" x1="68.0" y1="36.0" x2="68.0" y2="164.0" />
+                  <line className="ds" x1="36.0" y1="68.0" x2="164.0" y2="68.0" />
+                  <line className="ds" x1="100.0" y1="36.0" x2="100.0" y2="164.0" />
+                  <line className="ds" x1="36.0" y1="100.0" x2="164.0" y2="100.0" />
+                  <line className="ds" x1="132.0" y1="36.0" x2="132.0" y2="164.0" />
+                  <line className="ds" x1="36.0" y1="132.0" x2="164.0" y2="132.0" />
+                  <polygon className="ds" points="36.0,36.0 164.0,36.0 164.0,164.0 36.0,164.0" />
+                  <line className="ds" x1="36.0" y1="36.0" x2="164.0" y2="164.0" />
+                  <line className="ds" x1="164.0" y1="36.0" x2="36.0" y2="164.0" />
                 </defs>
                 <path
                   className="dt"
@@ -1533,10 +1005,7 @@ export function WhatWeBuild() {
                 />
                 <g className="gl" clipPath="url(#sc12)">
                   <clipPath id="sc12">
-                    <polygon
-                      className="gl"
-                      points="36.0,36.0 164.0,36.0 164.0,164.0 36.0,164.0"
-                    />
+                    <polygon className="gl" points="36.0,36.0 164.0,36.0 164.0,164.0 36.0,164.0" />
                   </clipPath>
                   <polygon
                     className="gb"
@@ -1602,10 +1071,7 @@ export function WhatWeBuild() {
                 <circle className="ln" cx="100" cy="100" r="52" />
                 <g className="gl" clipPath="url(#sc13)">
                   <clipPath id="sc13">
-                    <polygon
-                      className="gl"
-                      points="100.0,48.0 145.0,126.0 55.0,126.0"
-                    />
+                    <polygon className="gl" points="100.0,48.0 145.0,126.0 55.0,126.0" />
                   </clipPath>
                   <polygon
                     className="gb"
@@ -1668,10 +1134,7 @@ export function WhatWeBuild() {
                     strokeWidth="23.40"
                   />
                 </g>
-                <polygon
-                  className="ln"
-                  points="100.0,48.0 145.0,126.0 55.0,126.0"
-                />
+                <polygon className="ln" points="100.0,48.0 145.0,126.0 55.0,126.0" />
                 <circle className="nd" cx="36.0" cy="36.0" r="2.2" />
                 <circle className="nd" cx="164.0" cy="36.0" r="2.2" />
                 <circle className="nd" cx="164.0" cy="164.0" r="2.2" />
@@ -1686,16 +1149,10 @@ export function WhatWeBuild() {
               </svg>
             </span>
             <div>
-              <h3 id="design-technology-strategy-t">
-                Design &amp; Technology Strategy
-              </h3>
+              <h3 id="design-technology-strategy-t">Design &amp; Technology Strategy</h3>
               <ul>
-                <li id="ui-ux-design-product-discovery">
-                  UI/UX &amp; product discovery
-                </li>
-                <li id="technology-consulting-cto-as-a-service">
-                  CTO-as-a-service
-                </li>
+                <li id="ui-ux-design-product-discovery">UI/UX &amp; product discovery</li>
+                <li id="technology-consulting-cto-as-a-service">CTO-as-a-service</li>
               </ul>
             </div>
           </article>
@@ -1705,58 +1162,18 @@ export function WhatWeBuild() {
             aria-labelledby="quality-security-support-t"
           >
             <span className="prow-art" aria-hidden="true">
-              <svg
-                className="pa-art"
-                viewBox="-28.3 -28.3 256.5 256.5"
-                aria-hidden="true"
-              >
+              <svg className="pa-art" viewBox="-28.3 -28.3 256.5 256.5" aria-hidden="true">
                 <defs className="guides">
                   <polygon
                     className="ds"
                     points="100.0,50.0 140.0,64.0 137.0,108.0 100.0,148.0 63.0,108.0 60.0,64.0"
                   />
-                  <line
-                    className="ds"
-                    x1="100.0"
-                    y1="30.0"
-                    x2="100.0"
-                    y2="50.0"
-                  />
-                  <line
-                    className="ds"
-                    x1="158.0"
-                    y1="50.0"
-                    x2="140.0"
-                    y2="64.0"
-                  />
-                  <line
-                    className="ds"
-                    x1="154.0"
-                    y1="112.0"
-                    x2="137.0"
-                    y2="108.0"
-                  />
-                  <line
-                    className="ds"
-                    x1="100.0"
-                    y1="170.0"
-                    x2="100.0"
-                    y2="148.0"
-                  />
-                  <line
-                    className="ds"
-                    x1="46.0"
-                    y1="112.0"
-                    x2="63.0"
-                    y2="108.0"
-                  />
-                  <line
-                    className="ds"
-                    x1="42.0"
-                    y1="50.0"
-                    x2="60.0"
-                    y2="64.0"
-                  />
+                  <line className="ds" x1="100.0" y1="30.0" x2="100.0" y2="50.0" />
+                  <line className="ds" x1="158.0" y1="50.0" x2="140.0" y2="64.0" />
+                  <line className="ds" x1="154.0" y1="112.0" x2="137.0" y2="108.0" />
+                  <line className="ds" x1="100.0" y1="170.0" x2="100.0" y2="148.0" />
+                  <line className="ds" x1="46.0" y1="112.0" x2="63.0" y2="108.0" />
+                  <line className="ds" x1="42.0" y1="50.0" x2="60.0" y2="64.0" />
                 </defs>
                 <path
                   className="dt"
@@ -1834,10 +1251,7 @@ export function WhatWeBuild() {
                   className="ln"
                   points="100.0,30.0 158.0,50.0 154.0,112.0 100.0,170.0 46.0,112.0 42.0,50.0"
                 />
-                <polyline
-                  className="ln"
-                  points="78.0,100.0 94.0,116.0 124.0,84.0"
-                />
+                <polyline className="ln" points="78.0,100.0 94.0,116.0 124.0,84.0" />
                 <circle className="nd" cx="100.0" cy="30.0" r="2.2" />
                 <circle className="nd" cx="158.0" cy="50.0" r="2.2" />
                 <circle className="nd" cx="154.0" cy="112.0" r="2.2" />
@@ -1856,15 +1270,11 @@ export function WhatWeBuild() {
               </svg>
             </span>
             <div>
-              <h3 id="quality-security-support-t">
-                Quality, Security &amp; Support
-              </h3>
+              <h3 id="quality-security-support-t">Quality, Security &amp; Support</h3>
               <ul>
                 <li id="qa-test-automation">QA &amp; test automation</li>
                 <li id="cybersecurity-services">Security audits</li>
-                <li id="support-maintenance-evolution">
-                  Support &amp; maintenance
-                </li>
+                <li id="support-maintenance-evolution">Support &amp; maintenance</li>
               </ul>
             </div>
           </article>

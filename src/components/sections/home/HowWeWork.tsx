@@ -2,12 +2,7 @@ import Link from "next/link";
 
 export function HowWeWork() {
   return (
-    <section
-      className="how"
-      id="how-we-work"
-      data-how="tints"
-      aria-labelledby="paths-title"
-    >
+    <section className="how" id="how-we-work" data-how="tints" aria-labelledby="paths-title">
       <div className="wrap">
         <div className="sec-head">
           <h2 id="paths-title" data-reveal="">
@@ -27,8 +22,8 @@ export function HowWeWork() {
             </div>
             <h3>Engineers on your team</h3>
             <p>
-              Vetted senior engineers who work under your management, within
-              weeks. You interview each one.{" "}
+              Vetted senior engineers who work under your management, within weeks. You interview
+              each one.{" "}
               <Link className="tlink" href="/request">
                 Request engineers
               </Link>
@@ -254,9 +249,8 @@ export function HowWeWork() {
             </div>
             <h3>A product, built and shipped</h3>
             <p>
-              We scope, build, ship and support it, with one delivery lead and a
-              committed date.{" "}
-              <Link className="tlink" href="/contact?type=project">
+              We scope, build, ship and support it, with one delivery lead and a committed date.{" "}
+              <Link className="tlink" href="/contact?type=project" prefetch={false}>
                 Discuss a project
               </Link>
             </p>
@@ -390,9 +384,8 @@ export function HowWeWork() {
             </div>
             <h3>Guidance first</h3>
             <p>
-              A senior second opinion and a written report, with no obligation
-              to build with us.{" "}
-              <Link className="tlink" href="/contact?type=consultation">
+              A senior second opinion and a written report, with no obligation to build with us.{" "}
+              <Link className="tlink" href="/contact?type=consultation" prefetch={false}>
                 Book a consultation
               </Link>
             </p>
@@ -400,20 +393,16 @@ export function HowWeWork() {
               <div className="hc-chat">
                 <div className="hb-w">
                   <p className="hb-b hb-them">
-                    We’re about to fund a rewrite. Can someone check the
-                    architecture first?
+                    We’re about to fund a rewrite. Can someone check the architecture first?
                   </p>
                 </div>
                 <div className="hb-w">
                   <p className="hb-b hb-us">
-                    Sure. Share the repo and you’ll have a written report in two
-                    weeks.
+                    Sure. Share the repo and you’ll have a written report in two weeks.
                   </p>
                 </div>
                 <div className="hb-w">
-                  <p className="hb-b hb-us">
-                    No obligation to build with us after.
-                  </p>
+                  <p className="hb-b hb-us">No obligation to build with us after.</p>
                 </div>
                 <div className="hb-w">
                   <p className="hb-who">

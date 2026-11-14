@@ -3,11 +3,7 @@ import Link from "next/link";
 export function SiteFooter() {
   return (
     <footer className="site-footer">
-      <Link
-        className="hiring"
-        href="/careers"
-        aria-label="We are hiring — see open roles"
-      >
+      <Link className="hiring" href="/careers" aria-label="We are hiring — see open roles">
         {" "}
         <div className="hiring-track" aria-hidden="true">
           <span>We are hiring</span>
@@ -53,7 +49,9 @@ export function SiteFooter() {
                 <Link href="/request">Request engineers</Link>
               </li>
               <li>
-                <Link href="/contact?type=project">Discuss a project</Link>
+                <Link href="/contact?type=project" prefetch={false}>
+                  Discuss a project
+                </Link>
               </li>
             </ul>
           </nav>
@@ -80,16 +78,24 @@ export function SiteFooter() {
           <p>© 2026 Linwerk. All rights reserved.</p>
           <ul>
             <li>
-              <Link href="/privacy">Privacy policy</Link>
+              <Link href="/privacy" prefetch={false}>
+                Privacy policy
+              </Link>
             </li>
             <li>
-              <Link href="/terms">Terms and conditions</Link>
+              <Link href="/terms" prefetch={false}>
+                Terms and conditions
+              </Link>
             </li>
             <li>
-              <Link href="/terms-of-use">Terms of use</Link>
+              <Link href="/terms-of-use" prefetch={false}>
+                Terms of use
+              </Link>
             </li>
             <li>
-              <Link href="/cookies">Cookie policy</Link>
+              <Link href="/cookies" prefetch={false}>
+                Cookie policy
+              </Link>
             </li>
           </ul>
         </div>

@@ -41,7 +41,9 @@ export function PageFx({ reveal, appear, faq, trails, anchors, lazyImages }: Pag
       if (img.complete && img.naturalWidth) return;
       img.classList.add("lq-wait");
       const show = () => img.classList.remove("lq-wait");
-      img.addEventListener("load", () => img.decode().then(show, show), { signal: ac.signal });
+      img.addEventListener("load", () => img.decode().then(show, show), {
+        signal: ac.signal,
+      });
       img.addEventListener("error", show, { signal: ac.signal });
     });
     return () => ac.abort();

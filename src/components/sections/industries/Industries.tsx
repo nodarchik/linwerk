@@ -13,8 +13,8 @@ export function Industries() {
               <h3>Finance, banking &amp; insurance</h3>
               <p className="ig-n">40+ experts</p>
               <p className="ig-d">
-                Secure software for payments, lending, risk and claims, with
-                audit trails from day one.
+                Secure software for payments, lending, risk and claims, with audit trails from day
+                one.
               </p>
               <div className="ig-groups">
                 <div>
@@ -59,8 +59,7 @@ export function Industries() {
               <h3>Healthcare &amp; life sciences</h3>
               <p className="ig-n">30+ experts</p>
               <p className="ig-d">
-                Software for patient care, clinical work and health data, built
-                to HIPAA and GDPR.
+                Software for patient care, clinical work and health data, built to HIPAA and GDPR.
               </p>
               <div className="ig-groups">
                 <div>
@@ -107,8 +106,7 @@ export function Industries() {
               <h3>Retail &amp; e-commerce</h3>
               <p className="ig-n">35+ experts</p>
               <p className="ig-d">
-                Online and in-store selling that holds up on the busiest day of
-                the year.
+                Online and in-store selling that holds up on the busiest day of the year.
               </p>
               <div className="ig-groups">
                 <div>
@@ -135,8 +133,8 @@ export function Industries() {
               <h3>Manufacturing &amp; industrial</h3>
               <p className="ig-n">20+ experts</p>
               <p className="ig-d">
-                Shop-floor software for production, quality and uptime, wired
-                into the machines you already run.
+                Shop-floor software for production, quality and uptime, wired into the machines you
+                already run.
               </p>
               <ul className="ig-list">
                 <li>MES and production tracking</li>
@@ -149,9 +147,7 @@ export function Industries() {
           <ul className="ig-r c3">
             <li className="ig-card">
               <h3>Logistics &amp; supply chain</h3>
-              <p className="ig-d">
-                Visibility, planning and delivery for goods on the move.
-              </p>
+              <p className="ig-d">Visibility, planning and delivery for goods on the move.</p>
               <ul className="ig-list">
                 <li>Transport management systems</li>
                 <li>Fleet and route optimisation</li>
@@ -161,9 +157,7 @@ export function Industries() {
             </li>
             <li className="ig-card">
               <h3>Real estate &amp; PropTech</h3>
-              <p className="ig-d">
-                Platforms for owners, tenants, agents and buyers.
-              </p>
+              <p className="ig-d">Platforms for owners, tenants, agents and buyers.</p>
               <ul className="ig-list">
                 <li>Property management platforms</li>
                 <li>Rental and tenant portals</li>
@@ -187,9 +181,7 @@ export function Industries() {
           <ul className="ig-r c3">
             <li className="ig-card">
               <h3>Legal &amp; professional services</h3>
-              <p className="ig-d">
-                Tools that keep matters, documents and billing in order.
-              </p>
+              <p className="ig-d">Tools that keep matters, documents and billing in order.</p>
               <ul className="ig-list">
                 <li>Contract lifecycle management</li>
                 <li>AI-assisted document review</li>
@@ -199,9 +191,7 @@ export function Industries() {
             </li>
             <li className="ig-card">
               <h3>Travel &amp; hospitality</h3>
-              <p className="ig-d">
-                Booking and pricing that stay right across every channel.
-              </p>
+              <p className="ig-d">Booking and pricing that stay right across every channel.</p>
               <ul className="ig-list">
                 <li>Booking engines</li>
                 <li>Property and channel management</li>
@@ -211,9 +201,7 @@ export function Industries() {
             </li>
             <li className="ig-card">
               <h3>Media &amp; entertainment</h3>
-              <p className="ig-d">
-                Platforms for content delivery, audiences and rights.
-              </p>
+              <p className="ig-d">Platforms for content delivery, audiences and rights.</p>
               <ul className="ig-list">
                 <li>Streaming platforms</li>
                 <li>Content and digital asset management</li>
@@ -237,9 +225,7 @@ export function Industries() {
             </li>
             <li className="ig-card">
               <h3>Telecom</h3>
-              <p className="ig-d">
-                Carrier-grade systems for networks, billing and customers.
-              </p>
+              <p className="ig-d">Carrier-grade systems for networks, billing and customers.</p>
               <ul className="ig-list">
                 <li>OSS/BSS components</li>
                 <li>Provisioning and billing</li>
@@ -250,8 +236,7 @@ export function Industries() {
             <li className="ig-card t-linen">
               <h3>Public sector &amp; GovTech</h3>
               <p className="ig-d">
-                Services citizens can use, with the audit trail the law
-                requires.
+                Services citizens can use, with the audit trail the law requires.
               </p>
               <ul className="ig-list">
                 <li>Citizen service portals</li>

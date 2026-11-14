@@ -35,20 +35,14 @@ export function Process() {
                 01
               </span>
               <b>Discovery call</b>
-              <p>
-                A free 30–45 minute call about your goals, scope and
-                constraints.
-              </p>
+              <p>A free 30–45 minute call about your goals, scope and constraints.</p>
             </li>
             <li>
               <span className="ps-num" aria-hidden="true">
                 02
               </span>
               <b>Discovery &amp; architecture</b>
-              <p>
-                We map the scope and design the system. The architecture is
-                yours to keep.
-              </p>
+              <p>We map the scope and design the system. The architecture is yours to keep.</p>
             </li>
             <li>
               <span className="ps-num" aria-hidden="true">
@@ -62,10 +56,7 @@ export function Process() {
                 04
               </span>
               <b>Support &amp; evolution</b>
-              <p>
-                A 90-day warranty after launch, then an SLA as the product
-                grows.
-              </p>
+              <p>A 90-day warranty after launch, then an SLA as the product grows.</p>
             </li>
           </ol>
         </div>

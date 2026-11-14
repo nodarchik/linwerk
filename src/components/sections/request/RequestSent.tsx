@@ -1,11 +1,9 @@
-export function RqOkDialog() {
+import { RequestSentDialog } from "@/components/forms/RequestSentDialog";
+
+/** The "Request sent" dialog: an envelope drawn in dots and lines, and the thanks. */
+export function RequestSent() {
   return (
-    <dialog
-      className="rq-ok"
-      id="rq-ok"
-      aria-labelledby="rq-ok-t"
-      aria-describedby="rq-ok-d"
-    >
+    <RequestSentDialog>
       <div className="rq-ok-in" tabIndex={-1} autoFocus>
         <button type="button" className="rq-x" aria-label="Close" data-close="">
           <svg className="ic" aria-hidden="true">
@@ -84,102 +82,18 @@ export function RqOkDialog() {
           </g>
           <path className="bg" d="M34 62H166V146H34Z" />
           <g className="gl" clipPath="url(#rq-clip)">
-            <rect
-              className="gb"
-              x="34"
-              y="62"
-              width="132"
-              height="84"
-              strokeWidth="2.10"
-            />
-            <rect
-              className="gb"
-              x="34"
-              y="62"
-              width="132"
-              height="84"
-              strokeWidth="4.20"
-            />
-            <rect
-              className="gb"
-              x="34"
-              y="62"
-              width="132"
-              height="84"
-              strokeWidth="6.30"
-            />
-            <rect
-              className="gb"
-              x="34"
-              y="62"
-              width="132"
-              height="84"
-              strokeWidth="8.40"
-            />
-            <rect
-              className="gb"
-              x="34"
-              y="62"
-              width="132"
-              height="84"
-              strokeWidth="10.50"
-            />
-            <rect
-              className="gb"
-              x="34"
-              y="62"
-              width="132"
-              height="84"
-              strokeWidth="12.60"
-            />
-            <rect
-              className="gb"
-              x="34"
-              y="62"
-              width="132"
-              height="84"
-              strokeWidth="14.70"
-            />
-            <rect
-              className="gb"
-              x="34"
-              y="62"
-              width="132"
-              height="84"
-              strokeWidth="16.80"
-            />
-            <rect
-              className="gb"
-              x="34"
-              y="62"
-              width="132"
-              height="84"
-              strokeWidth="18.90"
-            />
-            <rect
-              className="gb"
-              x="34"
-              y="62"
-              width="132"
-              height="84"
-              strokeWidth="21.00"
-            />
-            <rect
-              className="gb"
-              x="34"
-              y="62"
-              width="132"
-              height="84"
-              strokeWidth="23.10"
-            />
-            <rect
-              className="gb"
-              x="34"
-              y="62"
-              width="132"
-              height="84"
-              strokeWidth="25.20"
-            />
+            <rect className="gb" x="34" y="62" width="132" height="84" strokeWidth="2.10" />
+            <rect className="gb" x="34" y="62" width="132" height="84" strokeWidth="4.20" />
+            <rect className="gb" x="34" y="62" width="132" height="84" strokeWidth="6.30" />
+            <rect className="gb" x="34" y="62" width="132" height="84" strokeWidth="8.40" />
+            <rect className="gb" x="34" y="62" width="132" height="84" strokeWidth="10.50" />
+            <rect className="gb" x="34" y="62" width="132" height="84" strokeWidth="12.60" />
+            <rect className="gb" x="34" y="62" width="132" height="84" strokeWidth="14.70" />
+            <rect className="gb" x="34" y="62" width="132" height="84" strokeWidth="16.80" />
+            <rect className="gb" x="34" y="62" width="132" height="84" strokeWidth="18.90" />
+            <rect className="gb" x="34" y="62" width="132" height="84" strokeWidth="21.00" />
+            <rect className="gb" x="34" y="62" width="132" height="84" strokeWidth="23.10" />
+            <rect className="gb" x="34" y="62" width="132" height="84" strokeWidth="25.20" />
           </g>
           <path className="ln" pathLength="1" d="M34 62H166V146H34Z" />
           <path className="ln l2" pathLength="1" d="M34 62L100 108L166 62" />
@@ -192,15 +106,11 @@ export function RqOkDialog() {
           <g className="acg">
             <circle className="ac" cx="154" cy="58" r="18" />
           </g>
-          <path
-            className="rq-tick"
-            pathLength="1"
-            d="M146 58.5l5.5 5.5 10.5-11"
-          />
+          <path className="rq-tick" pathLength="1" d="M146 58.5l5.5 5.5 10.5-11" />
         </svg>
         <h2 id="rq-ok-t">Request sent</h2>
         <p id="rq-ok-d">Thanks, we’ll be in touch within two business days.</p>
       </div>
-    </dialog>
+    </RequestSentDialog>
   );
 }

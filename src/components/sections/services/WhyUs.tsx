@@ -29,8 +29,8 @@ export function WhyUs() {
               <div className="path-body" id="why-1">
                 <div>
                   <p>
-                    Most of our team is senior or above — engineers who have
-                    shipped before, not people learning on your project.
+                    Most of our team is senior or above — engineers who have shipped before, not
+                    people learning on your project.
                   </p>
                 </div>
               </div>
@@ -48,8 +48,8 @@ export function WhyUs() {
               <div className="path-body" id="why-2">
                 <div>
                   <p>
-                    Start with one engineer on a risk-free trial. When you need
-                    more, our architects, QA and DevOps are already in-house.
+                    Start with one engineer on a risk-free trial. When you need more, our
+                    architects, QA and DevOps are already in-house.
                   </p>
                 </div>
               </div>
@@ -67,8 +67,8 @@ export function WhyUs() {
               <div className="path-body" id="why-3">
                 <div>
                   <p>
-                    Code, IP, documentation and infrastructure accounts — yours
-                    from day one, and in writing.
+                    Code, IP, documentation and infrastructure accounts — yours from day one, and in
+                    writing.
                   </p>
                 </div>
               </div>
@@ -93,98 +93,35 @@ export function WhyUs() {
                     <div className="b3-line">
                       <span>Senior</span>
                     </div>
+                    <i className="s" style={{ "--i": "0", "--h": "0.86" } as React.CSSProperties} />
+                    <i className="s" style={{ "--i": "1", "--h": "0.72" } as React.CSSProperties} />
+                    <i className="s" style={{ "--i": "2", "--h": "0.95" } as React.CSSProperties} />
+                    <i className="s" style={{ "--i": "3", "--h": "0.64" } as React.CSSProperties} />
+                    <i className="m" style={{ "--i": "4", "--h": "0.4" } as React.CSSProperties} />
+                    <i className="s" style={{ "--i": "5", "--h": "0.78" } as React.CSSProperties} />
+                    <i className="s" style={{ "--i": "6", "--h": "0.9" } as React.CSSProperties} />
+                    <i className="s" style={{ "--i": "7", "--h": "0.68" } as React.CSSProperties} />
+                    <i className="s" style={{ "--i": "8", "--h": "0.82" } as React.CSSProperties} />
+                    <i className="m" style={{ "--i": "9", "--h": "0.36" } as React.CSSProperties} />
                     <i
                       className="s"
-                      style={
-                        { "--i": "0", "--h": "0.86" } as React.CSSProperties
-                      }
-                    />
-                    <i
-                      className="s"
-                      style={
-                        { "--i": "1", "--h": "0.72" } as React.CSSProperties
-                      }
-                    />
-                    <i
-                      className="s"
-                      style={
-                        { "--i": "2", "--h": "0.95" } as React.CSSProperties
-                      }
+                      style={{ "--i": "10", "--h": "0.74" } as React.CSSProperties}
                     />
                     <i
                       className="s"
-                      style={
-                        { "--i": "3", "--h": "0.64" } as React.CSSProperties
-                      }
+                      style={{ "--i": "11", "--h": "0.88" } as React.CSSProperties}
                     />
-                    <i
-                      className="m"
-                      style={
-                        { "--i": "4", "--h": "0.4" } as React.CSSProperties
-                      }
-                    />
+                    <i className="s" style={{ "--i": "12", "--h": "0.6" } as React.CSSProperties} />
                     <i
                       className="s"
-                      style={
-                        { "--i": "5", "--h": "0.78" } as React.CSSProperties
-                      }
-                    />
-                    <i
-                      className="s"
-                      style={
-                        { "--i": "6", "--h": "0.9" } as React.CSSProperties
-                      }
-                    />
-                    <i
-                      className="s"
-                      style={
-                        { "--i": "7", "--h": "0.68" } as React.CSSProperties
-                      }
-                    />
-                    <i
-                      className="s"
-                      style={
-                        { "--i": "8", "--h": "0.82" } as React.CSSProperties
-                      }
-                    />
-                    <i
-                      className="m"
-                      style={
-                        { "--i": "9", "--h": "0.36" } as React.CSSProperties
-                      }
-                    />
-                    <i
-                      className="s"
-                      style={
-                        { "--i": "10", "--h": "0.74" } as React.CSSProperties
-                      }
-                    />
-                    <i
-                      className="s"
-                      style={
-                        { "--i": "11", "--h": "0.88" } as React.CSSProperties
-                      }
-                    />
-                    <i
-                      className="s"
-                      style={
-                        { "--i": "12", "--h": "0.6" } as React.CSSProperties
-                      }
-                    />
-                    <i
-                      className="s"
-                      style={
-                        { "--i": "13", "--h": "0.79" } as React.CSSProperties
-                      }
+                      style={{ "--i": "13", "--h": "0.79" } as React.CSSProperties}
                     />
                   </div>
                   <ul className="fx-key">
                     <li>
                       <i className="k-sr" />
                       <b>Senior and above</b>
-                      <span className="fx-pill fx-dark fx-pop">
-                        Most of the team
-                      </span>
+                      <span className="fx-pill fx-dark fx-pop">Most of the team</span>
                     </li>
                     <li>
                       <i className="k-tr" />
@@ -199,10 +136,7 @@ export function WhyUs() {
           <div className="stage-layer">
             <span className="stage-label">02 · Start small, grow</span>
             <div className="ui-fit wf" data-w="520" data-h="520">
-              <div
-                className="sc sf-depth"
-                data-steps="t1:300 t2:1900 q1:700 q2:600 q3:600"
-              >
+              <div className="sc sf-depth" data-steps="t1:300 t2:1900 q1:700 q2:600 q3:600">
                 <div className="wcard">
                   <div className="fx-h">
                     <b>Your engagement</b>
@@ -238,9 +172,7 @@ export function WhyUs() {
                         </svg>
                       </span>
                       <b>Architect</b>
-                      <span className="fx-pill fx-soft">
-                        Added when you grow
-                      </span>
+                      <span className="fx-pill fx-soft">Added when you grow</span>
                     </li>
                     <li className="add a2">
                       <span className="fx-av ic-tile">
@@ -249,9 +181,7 @@ export function WhyUs() {
                         </svg>
                       </span>
                       <b>QA engineer</b>
-                      <span className="fx-pill fx-soft">
-                        Added when you grow
-                      </span>
+                      <span className="fx-pill fx-soft">Added when you grow</span>
                     </li>
                     <li className="add a3">
                       <span className="fx-av ic-tile">
@@ -260,14 +190,10 @@ export function WhyUs() {
                         </svg>
                       </span>
                       <b>DevOps engineer</b>
-                      <span className="fx-pill fx-soft">
-                        Added when you grow
-                      </span>
+                      <span className="fx-pill fx-soft">Added when you grow</span>
                     </li>
                   </ul>
-                  <p className="fx-note fx-staff">
-                    Our own specialists: no hiring needed
-                  </p>
+                  <p className="fx-note fx-staff">Our own specialists: no hiring needed</p>
                 </div>
               </div>
             </div>
@@ -275,10 +201,7 @@ export function WhyUs() {
           <div className="stage-layer">
             <span className="stage-label">03 · Ownership</span>
             <div className="ui-fit wf" data-w="520" data-h="520">
-              <div
-                className="sc sf-own"
-                data-steps="q1:500 q2:420 q3:420 q4:420 q5:550 q6:950"
-              >
+              <div className="sc sf-own" data-steps="q1:500 q2:420 q3:420 q4:420 q5:550 q6:950">
                 <div className="wcard">
                   <div className="fx-h">
                     <b>Yours</b>

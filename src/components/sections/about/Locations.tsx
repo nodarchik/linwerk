@@ -6,10 +6,7 @@ export function Locations() {
           <h2 id="loc-title" data-reveal="">
             One team, working worldwide
           </h2>
-          <p>
-            We work with clients around the world, maisons across the LVMH group
-            among them.
-          </p>
+          <p>We work with clients around the world, maisons across the LVMH group among them.</p>
           <ul className="geo-rows">
             <li>
               <span className="mono">Team</span>

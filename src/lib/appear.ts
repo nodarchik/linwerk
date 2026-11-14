@@ -6,7 +6,7 @@
    - plays once per element; whatever is on screen (or above it) when the page opens is shown as it is;
    - text with its own letter appear (data-reveal) keeps that, and is not moved;
    - decorative layers (absolutely positioned), hidden panels and the insides of pictures / scenes are left alone;
-   - a box that scrolls on its own appears as one block;
+   - a box that scrolls on its own, or one marked data-appear-block, appears as one block;
    - reduced motion: nothing moves or hides.
    The [data-ap-wait] rule is in globals.css. */
 import { prefersReducedMotion, type Cleanup } from "./motion";
@@ -57,6 +57,7 @@ function collect(el: Element, out: HTMLElement[]) {
     const scrolls = /auto|scroll/.test(cs.overflowY);
     if (
       scrolls ||
+      c.hasAttribute("data-appear-block") ||
       c.matches(TEXT) ||
       c.matches(MEDIA) ||
       !c.children.length ||
@@ -76,7 +77,12 @@ function play(batch: HTMLElement[]) {
   });
   batch.forEach((el, i) => {
     el.removeAttribute("data-ap-wait");
-    el.animate(FRAMES, { duration: 550, easing: OUT, delay: Math.min(i * 60, 400), fill: "backwards" });
+    el.animate(FRAMES, {
+      duration: 550,
+      easing: OUT,
+      delay: Math.min(i * 60, 400),
+      fill: "backwards",
+    });
   });
 }
 

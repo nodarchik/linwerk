@@ -1,5 +1,5 @@
 import Link from "next/link";
-import type React from "react";
+import { lqip } from "@/data/lqip";
 
 export function About() {
   return (
@@ -17,9 +17,9 @@ export function About() {
           </h2>
           <div className="about-copy">
             <p>
-              We are an engineering agency for international teams, maisons
-              across the LVMH group among them. One more person in your team or
-              a whole project delivered: we work the way your team already does.
+              We are an engineering agency for international teams, maisons across the LVMH group
+              among them. One more person in your team or a whole project delivered: we work the way
+              your team already does.
             </p>
             <Link className="tlink" href="/about">
               More about us
@@ -28,10 +28,7 @@ export function About() {
         </div>
         <figure className="about-team" aria-label="Five members of our team">
           <div className="at-t">
-            <div
-              className="at-ph"
-              style={{ "--lqip": "url(data:image/png" } as React.CSSProperties}
-            >
+            <div className="at-ph" style={lqip("p1")}>
               <img
                 src="/team/p1-blur.webp"
                 alt=""
@@ -46,10 +43,7 @@ export function About() {
             </p>
           </div>
           <div className="at-t">
-            <div
-              className="at-ph"
-              style={{ "--lqip": "url(data:image/png" } as React.CSSProperties}
-            >
+            <div className="at-ph" style={lqip("p2")}>
               <img
                 src="/team/p2-blur.webp"
                 alt=""
@@ -64,10 +58,7 @@ export function About() {
             </p>
           </div>
           <div className="at-t">
-            <div
-              className="at-ph"
-              style={{ "--lqip": "url(data:image/png" } as React.CSSProperties}
-            >
+            <div className="at-ph" style={lqip("p3")}>
               <img
                 src="/team/p3-blur.webp"
                 alt=""
@@ -82,10 +73,7 @@ export function About() {
             </p>
           </div>
           <div className="at-t">
-            <div
-              className="at-ph"
-              style={{ "--lqip": "url(data:image/png" } as React.CSSProperties}
-            >
+            <div className="at-ph" style={lqip("p4")}>
               <img
                 src="/team/p4-blur.webp"
                 alt=""
@@ -100,10 +88,7 @@ export function About() {
             </p>
           </div>
           <div className="at-t">
-            <div
-              className="at-ph"
-              style={{ "--lqip": "url(data:image/png" } as React.CSSProperties}
-            >
+            <div className="at-ph" style={lqip("p5")}>
               <img
                 src="/team/p5-blur.webp"
                 alt=""

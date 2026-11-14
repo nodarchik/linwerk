@@ -103,7 +103,9 @@ export function HeroSlider() {
     }
 
     box.querySelector(".hn-prev")?.addEventListener("click", () => go(cur - 1), { signal });
-    box.querySelector(".hn-arr:not(.hn-prev)")?.addEventListener("click", () => go(cur + 1), { signal });
+    box
+      .querySelector(".hn-arr:not(.hn-prev)")
+      ?.addEventListener("click", () => go(cur + 1), { signal });
     document.addEventListener(
       "visibilitychange",
       () => {

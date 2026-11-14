@@ -60,7 +60,9 @@ export function stageAccordion(sec: HTMLElement, sceneSelector: string): Cleanup
   }
 
   items.forEach((el, k) => {
-    el.querySelector(".path-head")?.addEventListener("click", () => go(k), { signal });
+    el.querySelector(".path-head")?.addEventListener("click", () => go(k), {
+      signal,
+    });
     el.querySelector(".path-progress")?.addEventListener(
       "animationend",
       () => {

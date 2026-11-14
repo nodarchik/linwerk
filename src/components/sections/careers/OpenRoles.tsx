@@ -1,3 +1,47 @@
+import { RolesBoard, type RoleCard } from "@/components/careers/RolesBoard";
+import { JOBS, type Job, type JobBlock } from "@/data/jobs";
+
+const unique = (values: string[]) => Array.from(new Set(values));
+
+function words(block: JobBlock): string[] {
+  if (typeof block === "string") return [block];
+  if (Array.isArray(block)) return block;
+  return [block.intro ?? "", ...block.list];
+}
+
+// Only what the board needs crosses to the client: the card's line and one lower-cased search string per role.
+function toCard(job: Job): RoleCard {
+  const meta = [
+    job.dept,
+    job.location,
+    ...(job.mode === job.location ? [] : [job.mode]),
+    job.type,
+  ].join(" · ");
+  const haystack = [
+    job.title,
+    job.dept,
+    job.location,
+    job.mode,
+    job.type,
+    job.level,
+    job.summary,
+    ...words(job.about),
+    ...words(job.work),
+    ...words(job.you),
+    ...words(job.nice),
+  ]
+    .join(" ")
+    .toLowerCase();
+  return {
+    slug: job.slug,
+    title: job.title,
+    dept: job.dept,
+    location: job.location,
+    meta,
+    haystack,
+  };
+}
+
 export function OpenRoles() {
   return (
     <section className="svc-sec" id="open-roles" aria-labelledby="roles-title">
@@ -7,78 +51,11 @@ export function OpenRoles() {
             Open positions
           </h2>
         </div>
-        <div className="jb">
-          <aside className="jb-side" aria-label="Filter roles">
-            <div className="jb-grp is-open">
-              <button
-                type="button"
-                className="jb-gh"
-                aria-expanded="true"
-                aria-controls="jb-loc"
-              >
-                Filter by location
-                <svg className="ic" aria-hidden="true">
-                  <use href="#i-chev-d" />
-                </svg>
-              </button>
-              <div
-                className="jb-chips"
-                id="jb-loc"
-                role="group"
-                aria-label="Location"
-              />
-            </div>
-            <div className="jb-grp is-open">
-              <button
-                type="button"
-                className="jb-gh"
-                aria-expanded="true"
-                aria-controls="jb-dept"
-              >
-                Filter by department
-                <svg className="ic" aria-hidden="true">
-                  <use href="#i-chev-d" />
-                </svg>
-              </button>
-              <div
-                className="jb-list"
-                id="jb-dept"
-                role="group"
-                aria-label="Department"
-              />
-            </div>
-          </aside>
-          <div className="jb-main">
-            <div className="jb-bar">
-              <label className="jb-search">
-                <svg className="ic" aria-hidden="true">
-                  <use href="#i-search" />
-                </svg>
-                <input
-                  id="jb-q"
-                  type="search"
-                  placeholder="Search by keyword…"
-                  aria-label="Search roles"
-                />
-              </label>{" "}
-              <button type="button" className="jb-reset" id="jb-reset">
-                Reset all
-              </button>{" "}
-              <span className="jb-count" aria-live="polite">
-                Viewing: <b id="jb-n" />
-              </span>
-            </div>
-            <div className="jb-box">
-              <ul className="jobs" id="roles" data-lenis-prevent="" />
-              <div className="jobs-none" id="jobs-none">
-                <p>No roles match those filters right now.</p>
-                <button type="button" className="btn btn-ghost" id="rf-clear">
-                  Clear filters
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
+        <RolesBoard
+          roles={JOBS.map(toCard)}
+          locations={unique(JOBS.map((job) => job.location))}
+          departments={unique(JOBS.map((job) => job.dept))}
+        />
       </div>
     </section>
   );

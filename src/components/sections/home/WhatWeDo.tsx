@@ -17,9 +17,8 @@ export function WhatWeDo() {
         <div className="paths-list">
           <div className="engage-foot">
             <p>
-              Nineteen services across six practice areas. Whether you’re
-              borrowing two of our engineers or handing us a product, this is
-              what they draw on.
+              Nineteen services across six practice areas. Whether you’re borrowing two of our
+              engineers or handing us a product, this is what they draw on.
             </p>
             <Link className="tlink" href="/services">
               Explore all services
@@ -45,10 +44,7 @@ export function WhatWeDo() {
                     <li>MVPs</li>
                     <li>Enterprise systems</li>
                   </ul>
-                  <Link
-                    className="tlink"
-                    href="/services#product-software-engineering"
-                  >
+                  <Link className="tlink" href="/services#product-software-engineering">
                     See the practice
                   </Link>
                 </div>
@@ -96,10 +92,7 @@ export function WhatWeDo() {
                     <li>Architecture consulting</li>
                     <li>CTO-as-a-service</li>
                   </ul>
-                  <Link
-                    className="tlink"
-                    href="/services#design-technology-strategy"
-                  >
+                  <Link className="tlink" href="/services#design-technology-strategy">
                     See the practice
                   </Link>
                 </div>
@@ -120,9 +113,7 @@ export function WhatWeDo() {
                     <div className="cf-card dyn">
                       <div className="fx-h">
                         <b>Checkout, new release</b>
-                        <span className="fx-lo">
-                          Built by your team and ours
-                        </span>
+                        <span className="fx-lo">Built by your team and ours</span>
                       </div>
                       <ol className="cf-pipe">
                         <li className="b1">
@@ -283,9 +274,7 @@ export function WhatWeDo() {
                           Invoice 2044
                           <span className="cf-st">
                             <span className="wait">Queued</span>
-                            <span className="fx-pill fx-soft fx-pop">
-                              For your review
-                            </span>
+                            <span className="fx-pill fx-soft fx-pop">For your review</span>
                           </span>
                         </li>
                         <li className="r5">
@@ -360,9 +349,7 @@ export function WhatWeDo() {
                               </i>
                               <div>
                                 <b>Discovery</b>
-                                <span className="fx-lo">
-                                  What to build first
-                                </span>
+                                <span className="fx-lo">What to build first</span>
                               </div>
                             </li>
                             <li className="d2">
@@ -373,9 +360,7 @@ export function WhatWeDo() {
                               </i>
                               <div>
                                 <b>UX and UI design</b>
-                                <span className="fx-lo">
-                                  Screens people understand
-                                </span>
+                                <span className="fx-lo">Screens people understand</span>
                               </div>
                             </li>
                             <li className="d3">
@@ -386,9 +371,7 @@ export function WhatWeDo() {
                               </i>
                               <div>
                                 <b>Architecture</b>
-                                <span className="fx-lo">
-                                  A plan that scales
-                                </span>
+                                <span className="fx-lo">A plan that scales</span>
                               </div>
                             </li>
                           </ol>

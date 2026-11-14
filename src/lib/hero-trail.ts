@@ -11,7 +11,8 @@ const LAG = 0.3;
 const FADE = 0.12; // the tail covers ~0.6s of movement and fades over 1.5s
 
 export function mountHeroTrail(layer: HTMLElement | null, hero: HTMLElement | null): Cleanup {
-  if (!layer || !hero || !window.matchMedia("(hover:hover) and (pointer:fine)").matches) return () => {};
+  if (!layer || !hero || !window.matchMedia("(hover:hover) and (pointer:fine)").matches)
+    return () => {};
   const sky = layer.parentElement as HTMLElement;
   let pts: { x: number; y: number; t: number }[] = [];
   let px = 0;

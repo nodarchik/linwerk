@@ -30,10 +30,7 @@ export function Integrations() {
               </button>
               <div className="path-body" id="int-1">
                 <div>
-                  <p>
-                    Chatbots, agents and copilots, and the BI tools that read
-                    your data.
-                  </p>
+                  <p>Chatbots, agents and copilots, and the BI tools that read your data.</p>
                   <ul className="int-names">
                     <li>AI chatbots</li>
                     <li>Voice agents</li>
@@ -117,9 +114,7 @@ export function Integrations() {
               </button>
               <div className="path-body" id="int-4">
                 <div>
-                  <p>
-                    HR and payroll, and sign-in your security team approves.
-                  </p>
+                  <p>HR and payroll, and sign-in your security team approves.</p>
                   <ul className="int-names">
                     <li>Workday</li>
                     <li>BambooHR</li>
@@ -175,10 +170,7 @@ export function Integrations() {
               </button>
               <div className="path-body" id="int-6">
                 <div>
-                  <p>
-                    Mainframes, EDI and flat files, and the APIs that bridge
-                    them.
-                  </p>
+                  <p>Mainframes, EDI and flat files, and the APIs that bridge them.</p>
                   <ul className="int-names">
                     <li>SOAP web services</li>
                     <li>EDI (X12, EDIFACT)</li>

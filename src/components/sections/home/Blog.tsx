@@ -1,5 +1,5 @@
 import Link from "next/link";
-import type React from "react";
+import { lqip } from "@/data/lqip";
 
 export function Blog() {
   return (
@@ -14,13 +14,7 @@ export function Blog() {
           <article className="blog-card">
             <Link className="bc-link" href="/blog/agency-launch">
               {" "}
-              <div
-                className="bc-art"
-                aria-hidden="true"
-                style={
-                  { "--lqip": "url(data:image/png" } as React.CSSProperties
-                }
-              >
+              <div className="bc-art" aria-hidden="true" style={lqip("agency_launch")}>
                 <img
                   src="/blog/agency-launch.webp"
                   alt=""
@@ -37,9 +31,8 @@ export function Blog() {
                 </p>
                 <h3>We’re open: senior engineers, on your terms</h3>
                 <p className="bc-sum">
-                  Why we started the agency, how we work, from one engineer in
-                  your team to a whole product delivered, and what you can
-                  expect from the first conversation.
+                  Why we started the agency, how we work, from one engineer in your team to a whole
+                  product delivered, and what you can expect from the first conversation.
                 </p>
                 <span className="bc-more tlink">Read article</span>
               </div>{" "}
@@ -48,13 +41,7 @@ export function Blog() {
           <article className="blog-card">
             <Link className="bc-link" href="/blog/why-going-digital-is-hard">
               {" "}
-              <div
-                className="bc-art"
-                aria-hidden="true"
-                style={
-                  { "--lqip": "url(data:image/png" } as React.CSSProperties
-                }
-              >
+              <div className="bc-art" aria-hidden="true" style={lqip("going_digital")}>
                 <img
                   src="/blog/going-digital.webp"
                   alt=""
@@ -71,9 +58,9 @@ export function Blog() {
                 </p>
                 <h3>Why going digital is harder for smaller businesses</h3>
                 <p className="bc-sum">
-                  Paper files, legacy tools and no in-house tech team: the
-                  obstacles small and mid-sized companies hit on the way to
-                  digital, and how to get past them one step at a time.
+                  Paper files, legacy tools and no in-house tech team: the obstacles small and
+                  mid-sized companies hit on the way to digital, and how to get past them one step
+                  at a time.
                 </p>
                 <span className="bc-more tlink">Read article</span>
               </div>{" "}

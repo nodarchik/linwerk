@@ -3,7 +3,7 @@ import type { Article, ArticleBlock } from "@/data/articles";
 
 const meta = (article: Article) => `${article.tag} · ${article.minutes} min read`;
 
-function Block({ block }: { block: ArticleBlock }) {
+export function Block({ block }: { block: ArticleBlock }) {
   if (typeof block === "string") return <p>{block}</p>;
   if ("h" in block) return <h2>{block.h}</h2>;
   if ("quote" in block) return <blockquote>{block.quote}</blockquote>;

@@ -19,7 +19,7 @@ export function Mission() {
               We give companies the senior engineers they’re missing, and give engineers work that
               matters.
             </p>
-            <Link className="btn btn-ghost" href="/contact?type=project" prefetch={false}>
+            <Link className="btn btn-ghost" href="/contact?type=project">
               Discuss a project
             </Link>
           </div>

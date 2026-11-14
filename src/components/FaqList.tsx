@@ -16,7 +16,7 @@ export function FaqList({ items }: { items: FaqItem[] }) {
               typeof part === "string" ? (
                 part
               ) : (
-                <Link key={part.href} href={part.href} prefetch={false}>
+                <Link key={part.href} href={part.href}>
                   {part.label}
                 </Link>
               ),

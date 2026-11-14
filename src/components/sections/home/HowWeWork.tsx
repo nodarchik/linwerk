@@ -250,7 +250,7 @@ export function HowWeWork() {
             <h3>A product, built and shipped</h3>
             <p>
               We scope, build, ship and support it, with one delivery lead and a committed date.{" "}
-              <Link className="tlink" href="/contact?type=project" prefetch={false}>
+              <Link className="tlink" href="/contact?type=project">
                 Discuss a project
               </Link>
             </p>
@@ -385,7 +385,7 @@ export function HowWeWork() {
             <h3>Guidance first</h3>
             <p>
               A senior second opinion and a written report, with no obligation to build with us.{" "}
-              <Link className="tlink" href="/contact?type=consultation" prefetch={false}>
+              <Link className="tlink" href="/contact?type=consultation">
                 Book a consultation
               </Link>
             </p>

@@ -13,7 +13,7 @@ export function Faq() {
           <p className="faq-intro">
             Straight answers about how working with us works. Anything else, ask us directly.
           </p>
-          <Link className="btn btn-ghost" href="/contact?type=project" prefetch={false}>
+          <Link className="btn btn-ghost" href="/contact?type=project">
             Discuss a project
           </Link>
         </div>

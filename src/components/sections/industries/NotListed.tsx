@@ -16,7 +16,7 @@ export function NotListed() {
             </h2>
             <p>Niche or brand new, we build for it too. Tell us about yours.</p>
           </div>
-          <Link className="btn btn-primary" href="/contact?type=project" prefetch={false}>
+          <Link className="btn btn-primary" href="/contact?type=project">
             Discuss a project
           </Link>
         </div>

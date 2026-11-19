@@ -6,10 +6,27 @@ import { SmoothScroll } from "@/components/fx/SmoothScroll";
 import { fontVars } from "./fonts";
 import "./globals.css";
 
+const DESCRIPTION =
+  "Senior engineers on your team within weeks, or a full product planned, built and run. Risk-free trial, no recruitment fee.";
+
+// Link previews (chat apps, social) need absolute image URLs and a JPEG/PNG, not WebP.
 export const metadata: Metadata = {
+  metadataBase: new URL("https://linwerk.com"),
   title: { default: "Linwerk", template: "%s · Linwerk" },
-  description:
-    "Senior engineers on your team within weeks, or a full product planned, built and run. Risk-free trial, no recruitment fee.",
+  description: DESCRIPTION,
+  openGraph: {
+    type: "website",
+    siteName: "Linwerk",
+    title: "Linwerk",
+    description: DESCRIPTION,
+    images: [{ url: "/og.jpg", width: 1200, height: 600, alt: "Linwerk" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Linwerk",
+    description: DESCRIPTION,
+    images: ["/og.jpg"],
+  },
 };
 
 export const viewport: Viewport = {

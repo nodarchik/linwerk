@@ -12544,6 +12544,14 @@ body::before {
   justify-self: start;
   margin-top: 16px;
 }
+:where(html:has(.sc)) .rq-fail {
+  margin: 0;
+  font: 400 14px/1.4 var(--font);
+  color: var(--wine);
+}
+:where(html:has(.sc)) .rq-fail:empty {
+  display: none;
+}
 :where(html:has(.sc)) .rq-ok {
   width: min(480px, calc(100% - 32px));
   padding: 0;

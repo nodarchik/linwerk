@@ -1,15 +1,9 @@
 "use client";
 
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { EMAIL, useFieldErrors, value } from "@/components/forms/useFieldErrors";
 import { useModal } from "@/components/Modal";
-
-/** The topics, keyed by the ?type= value the site's links carry. */
-const TOPICS = {
-  project: "A project",
-  consultation: "A consultation or audit",
-  other: "Something else",
-};
+import { TOPICS } from "@/lib/contact";
 
 const text = (form: HTMLFormElement, name: string) => {
   const el = form.elements.namedItem(name);
@@ -29,12 +23,22 @@ const RULES = {
 };
 type FieldName = keyof typeof RULES;
 
-/** Contact. No server yet: a valid form empties itself and gives way to the "Message sent" dialog. */
+const FAILED = {
+  busy: "We are getting a lot of messages right now. Please try again in an hour or write to info@linwerk.com.",
+  other: "Your message was not sent. Please try again or write to info@linwerk.com.",
+};
+
+/**
+ * Contact. A valid form goes to /api/contact (saved for the admin panel and emailed to the team); once it is
+ * accepted the form empties itself and gives way to the "Message sent" dialog.
+ */
 export function ContactForm() {
   const { open, opens } = useModal();
   const { errors, field, recheck, validate } = useFieldErrors(RULES, opens);
   const box = (name: FieldName) => (errors[name] ? "rq-f is-bad" : "rq-f");
   const topicRef = useRef<HTMLSelectElement>(null);
+  const [sending, setSending] = useState(false);
+  const [failed, setFailed] = useState("");
 
   // /contact?type=project and ?type=consultation arrive with the topic already chosen
   useEffect(() => {
@@ -46,7 +50,7 @@ export function ContactForm() {
     <form
       className="rq-form"
       noValidate
-      onSubmit={(e) => {
+      onSubmit={async (e) => {
         e.preventDefault();
         const form = e.currentTarget;
         const first = validate(form);
@@ -54,8 +58,23 @@ export function ContactForm() {
           (form.elements.namedItem(first) as HTMLElement).focus();
           return;
         }
-        form.reset();
-        open();
+        if (sending) return;
+        setSending(true);
+        setFailed("");
+        try {
+          const res = await fetch("/api/contact", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(Object.fromEntries(new FormData(form))),
+          });
+          if (!res.ok) throw new Error(String(res.status));
+          form.reset();
+          open();
+        } catch (err) {
+          setFailed(err instanceof Error && err.message === "429" ? FAILED.busy : FAILED.other);
+        } finally {
+          setSending(false);
+        }
       }}
     >
       <label className={box("name")}>
@@ -120,8 +139,20 @@ export function ContactForm() {
           {errors.message}
         </span>
       </label>{" "}
-      <button type="submit" className="btn btn-primary">
-        Send message
+      {/* a trap for bots: people neither see nor reach it */}
+      <input
+        type="text"
+        name="website"
+        tabIndex={-1}
+        autoComplete="off"
+        aria-hidden="true"
+        hidden
+      />
+      <p className="rq-fail" role="alert">
+        {failed}
+      </p>
+      <button type="submit" className="btn btn-primary" disabled={sending}>
+        {sending ? "Sending…" : "Send message"}
       </button>
     </form>
   );

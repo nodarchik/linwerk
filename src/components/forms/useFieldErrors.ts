@@ -68,7 +68,7 @@ export function useFieldErrors<N extends string>(rules: Rules<N>, epoch = 0) {
   return { errors, field, recheck, validate };
 }
 
-export const EMAIL = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
+export { EMAIL } from "@/lib/contact";
 
 export function value(form: HTMLFormElement, name: string): string {
   const el = form.elements.namedItem(name);

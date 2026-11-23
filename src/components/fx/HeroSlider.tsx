@@ -26,6 +26,10 @@ export function HeroSlider() {
     const faceImgs = Array.from(box.querySelectorAll<HTMLElement>(".hp-img"));
     const faceRoles = Array.from(box.querySelectorAll<HTMLElement>(".hp-role"));
     const faces = faceImgs.length;
+    // the person the Match card opened on (its inline script picked one); after a client-side navigation that script
+    // has not run, so pick here
+    let first = faceImgs.findIndex((el) => el.classList.contains("is-active"));
+    if (first < 0) first = Math.floor(Math.random() * faces);
     const reduce = prefersReducedMotion();
 
     let cur = 0;
@@ -48,9 +52,11 @@ export function HeroSlider() {
       pics.forEach((p) => p.classList.toggle("is-on", Number(p.dataset.k) === k));
       w = k;
     }
+    // k counts from the random first person
     function face(k: number) {
-      faceImgs.forEach((el, i) => el.classList.toggle("is-active", i === k));
-      faceRoles.forEach((el, i) => el.classList.toggle("is-active", i === k));
+      const on = (first + k) % faces;
+      faceImgs.forEach((el, i) => el.classList.toggle("is-active", i === on));
+      faceRoles.forEach((el, i) => el.classList.toggle("is-active", i === on));
     }
 
     // `elapsed` is the time already played on this slide; each change is a timer at its own time on the slide, so a
@@ -93,7 +99,7 @@ export function HeroSlider() {
         void box!.offsetWidth;
         w = 0;
         word(0);
-      } else face(0); // the people from the first one
+      } else face(0); // the people from the one the page opened on
       stop();
       elapsed = 0; // a new slide: its clock and the timeline from the start
       trk!.classList.remove("run");

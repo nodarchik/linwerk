@@ -22,10 +22,12 @@ Other scripts: `npm run build`, `npm run start`, `npm run lint`, `npm run format
 | `/careers/[slug]` | A role, statically generated from `src/data/jobs.ts`         |
 | `/blog/[slug]`    | An article, statically generated from `src/data/articles.ts` |
 | `/request`        | Request engineers form                                       |
+| `/contact`        | Contact form; posts to `/api/contact`                        |
+| `/admin`          | Admin panel: the contact messages, behind a password         |
 
-Every page is prerendered. The design links to `/contact`, `/privacy`, `/terms`, `/terms-of-use`, `/cookies`,
+Every page is prerendered. The design links to `/privacy`, `/terms`, `/terms-of-use`, `/cookies`,
 `/pricing`, `/technologies` and `/security-compliance`, which do not exist yet; those links are kept, are not
-prefetched, and land on `not-found.tsx`. The two forms validate in the browser and have no backend yet.
+prefetched, and land on `not-found.tsx`. The request form validates in the browser and has no backend yet.
 
 ## Layout of the code
 
@@ -73,4 +75,15 @@ Pictures are pre-sized WebP and SVG files in `public/`, served as they are with 
 
 ## Deploying
 
-The project deploys to Vercel with the default Next.js settings; no environment variables are needed.
+The project deploys to Vercel with the default Next.js settings. The pages are static; the contact form and the
+admin panel run on the server and need these environment variables:
+
+| Variable         | For                                                                                  |
+| ---------------- | ------------------------------------------------------------------------------------ |
+| `DATABASE_URL`   | Postgres connection string (Neon); the `contact_messages` table is made on first use |
+| `RESEND_API_KEY` | Resend key for the notification email; without it messages are saved but not emailed |
+| `ADMIN_PASSWORD` | The password of `/admin`; without it nobody can sign in                              |
+| `CONTACT_TO`     | Optional: comma-separated recipients instead of the two in `src/lib/server/mail.ts`  |
+| `CONTACT_FROM`   | Optional: sender instead of `Linwerk website <website@linwerk.com>`                  |
+
+The sender's domain must be verified in Resend. A message whose email did not go out is marked in the panel.

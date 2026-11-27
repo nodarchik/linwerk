@@ -302,6 +302,11 @@ body::before {
   text-decoration: none;
   flex: none;
 }
+.brand-logo {
+  display: block;
+  width: 110.41px;
+  height: 25px;
+}
 .wordmark {
   font:
     600 23px/1 Outfit,

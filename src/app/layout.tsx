@@ -6,10 +6,38 @@ import { SmoothScroll } from "@/components/fx/SmoothScroll";
 import { fontVars } from "./fonts";
 import "./globals.css";
 
+const description =
+  "Senior engineers on your team within weeks, or a full product planned, built and run. Risk-free trial, no recruitment fee.";
+
 export const metadata: Metadata = {
+  metadataBase: new URL("https://linwerk.com"),
   title: { default: "Linwerk", template: "%s · Linwerk" },
-  description:
-    "Senior engineers on your team within weeks, or a full product planned, built and run. Risk-free trial, no recruitment fee.",
+  description,
+  icons: {
+    icon: [
+      { url: "/brand/favicon.svg", type: "image/svg+xml" },
+      { url: "/brand/favicon-32.png", sizes: "32x32", type: "image/png" },
+    ],
+    apple: [{ url: "/brand/favicon-512.png", sizes: "512x512", type: "image/png" }],
+  },
+  openGraph: {
+    type: "website",
+    siteName: "Linwerk",
+    description,
+    images: [
+      {
+        url: "/brand/thumbnail.png",
+        width: 3600,
+        height: 1890,
+        alt: "Linwerk",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    description,
+    images: ["/brand/thumbnail.png"],
+  },
 };
 
 export const viewport: Viewport = {

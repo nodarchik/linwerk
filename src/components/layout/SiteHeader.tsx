@@ -62,9 +62,13 @@ export function SiteHeader() {
     >
       <div className="wrap bar">
         <Link className="brand" href="/" aria-label="Linwerk, home">
-          <span className="wordmark" aria-hidden="true">
-            Linwerk
-          </span>
+          <img
+            className="brand-logo"
+            src="/brand/linwerk-logo.svg"
+            alt=""
+            width={500}
+            height={113}
+          />
         </Link>
         <nav className="nav" aria-label="Main">
           <NavList pathname={pathname} />

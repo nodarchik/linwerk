@@ -1,0 +1,26 @@
+name: linwerk
+
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    # Use the mounted script so the dev command can change without rebuilding the image.
+    entrypoint: ["/bin/sh", "/app/docker/entrypoint.dev.sh"]
+    ports:
+      - "3001:3000"
+    volumes:
+      - .:/app
+      - linwerk_node_modules:/app/node_modules
+    environment:
+      DOCKER: "1"
+      WATCHPACK_POLLING: "1000"
+    env_file:
+      - path: .env
+        required: false
+      - path: .env.local
+        required: false
+    init: true
+
+volumes:
+  linwerk_node_modules:

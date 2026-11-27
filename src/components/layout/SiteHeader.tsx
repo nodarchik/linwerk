@@ -66,8 +66,8 @@ export function SiteHeader() {
             className="brand-logo"
             src="/brand/linwerk-logo.svg"
             alt=""
-            width={500}
-            height={113}
+            width={501}
+            height={114}
           />
         </Link>
         <nav className="nav" aria-label="Main">
